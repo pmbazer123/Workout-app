@@ -82,7 +82,7 @@ export interface CalendarDayData {
   dayNumber: number
   state: DayState
   isRestDay: boolean
-  completedAt?: Date
+  completedAt?: string  // ISO string — safe to pass as server→client prop
   weekPhase: WeekPhase
   phaseLabel: string
 }
