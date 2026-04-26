@@ -1,61 +1,45 @@
 # 28-DAY CHALLENGE | COMBAT FITNESS
 
-A personal military-style 28-day workout challenge web app. Dark theme, tactical vibes, satisfying micro-interactions. Built to run locally and be accessible from your phone via Tailscale.
+A personal military-style 28-day workout challenge web app. Dark theme, tactical vibes, satisfying micro-interactions.
 
-## Setup
+## Deployed (Vercel + Neon)
+
+The app is hosted on Vercel with a Neon PostgreSQL database. Every push to the main branch auto-deploys.
+
+**One-time setup:**
+1. Create a free project at [neon.tech](https://neon.tech) and copy the connection string
+2. Import this repo at [vercel.com](https://vercel.com) and add `DATABASE_URL` as an environment variable
+3. Deploy — the build command handles schema creation and seeding automatically
+
+## Local Development
 
 ```bash
 # 1. Install dependencies
 npm install
 
-# 2. Create the SQLite database and apply the schema
-npm run db:push
+# 2. Copy env and set a local DATABASE_URL
+cp .env.example .env
+# Edit .env — for local dev you can use a local Postgres or a Neon dev branch
 
-# 3. Seed exercise library and 28-day workout program
-npm run db:seed
-
-# 4. Start the dev server (binds to all interfaces for Tailscale access)
+# 3. Start the dev server
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser. Complete the onboarding to generate your 28-day program.
-
-## Tailscale Access (Phone)
-
-1. Find your PC's Tailscale IP:
-   ```bash
-   tailscale ip -4
-   ```
-2. On your phone (connected to Tailscale), open:
-   ```
-   http://<YOUR-TAILSCALE-IP>:3000
-   ```
-
-The dev server binds to `0.0.0.0:3000` so it's reachable on all interfaces including Tailscale.
-
-## Environment
-
-Copy `.env.example` to `.env` (already done by setup):
-
-```
-DATABASE_URL="file:./dev.db"
-```
-
-The SQLite database file lives at `prisma/dev.db` (path relative to the schema) — it is git-ignored.
+Open [http://localhost:3000](http://localhost:3000) and complete onboarding to generate your 28-day program.
 
 ## Other Commands
 
 ```bash
+npm run db:push     # Push schema changes to the database
+npm run db:seed     # Re-seed exercise library (idempotent)
 npm run db:studio   # Open Prisma Studio to inspect data
 npm run db:reset    # Wipe and re-seed (start fresh)
-npm run build       # Production build
-npm run start       # Production server (also binds to 0.0.0.0:3000)
 ```
 
 ## Stack
 
 - **Next.js 14** (App Router) + TypeScript
 - **Tailwind CSS** with military color palette
-- **Prisma ORM** + SQLite (single-user, local)
+- **Prisma ORM** + PostgreSQL (hosted on Neon)
 - **Framer Motion** animations
 - **Lucide** icons + **canvas-confetti** celebrations
