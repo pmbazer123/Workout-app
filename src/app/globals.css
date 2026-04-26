@@ -104,6 +104,10 @@
     text-shadow: 0 0 8px rgba(204, 34, 0, 0.4);
   }
 
+  /* Hide scrollbar while preserving scroll */
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
   /* Safe area padding for mobile notches */
   .pb-safe {
     padding-bottom: env(safe-area-inset-bottom, 1rem);
