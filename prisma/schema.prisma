@@ -1,0 +1,86 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model UserProfile {
+  id           String   @id @default(cuid())
+  ageRange     String   // "18-25" | "26-35" | "36-45" | "46+"
+  fitnessLevel String   // "Recruit" | "Soldier" | "Operator"
+  goals        String   // JSON: Goal[]
+  equipment    String   // JSON: Equipment[]
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  challenges   Challenge[]
+  progressLogs ProgressLog[]
+  achievements Achievement[]
+}
+
+model Challenge {
+  id         String   @id @default(cuid())
+  userId     String
+  startDate  DateTime
+  currentDay Int      @default(1)
+  isActive   Boolean  @default(true)
+  createdAt  DateTime @default(now())
+
+  user          UserProfile    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  dailyWorkouts DailyWorkout[]
+}
+
+model DailyWorkout {
+  id          String    @id @default(cuid())
+  challengeId String
+  dayNumber   Int
+  exercises   String    // JSON: WorkoutExerciseSlot[]
+  isCompleted Boolean   @default(false)
+  completedAt DateTime?
+  isRestDay   Boolean   @default(false)
+  notes       String?
+
+  challenge Challenge @relation(fields: [challengeId], references: [id], onDelete: Cascade)
+
+  @@unique([challengeId, dayNumber])
+}
+
+model Exercise {
+  id              String   @id @default(cuid())
+  name            String   @unique
+  category        String   // "push" | "pull" | "core" | "legs" | "cardio" | "full_body"
+  description     String
+  musclesTargeted String   // JSON: string[]
+  formCues        String   // JSON: string[]
+  equipment       String   // JSON: Equipment[]
+  fitnessLevels   String   // JSON: FitnessLevel[]
+  createdAt       DateTime @default(now())
+}
+
+model ProgressLog {
+  id                String   @id @default(cuid())
+  userId            String
+  date              DateTime
+  workoutsCompleted Int      @default(0)
+  totalReps         Int      @default(0)
+  durationMinutes   Int      @default(0)
+
+  user UserProfile @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, date])
+}
+
+model Achievement {
+  id       String   @id @default(cuid())
+  userId   String
+  type     String
+  earnedAt DateTime @default(now())
+  metadata String   // JSON: AchievementMetadata
+
+  user UserProfile @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, type])
+}
