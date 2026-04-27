@@ -12,18 +12,17 @@ import type { CalendarDayData, DayState } from '@/types'
 export const dynamic = 'force-dynamic'
 export const metadata = { title: 'DASHBOARD | COMBAT FITNESS' }
 
-// Total workout days in the 28-day program (28 - 5 rest days)
-const TOTAL_WORKOUT_DAYS = 23
+// Total workout days in the 28-day program (28 - 8 rest days)
+const TOTAL_WORKOUT_DAYS = 20
 
 export default async function DashboardPage() {
   const profile = await prisma.userProfile.findFirst()
-  if (!profile) redirect('/onboarding')
 
   const challenge = await prisma.challenge.findFirst({
-    where: { userId: profile.id, isActive: true },
+    where: { userId: profile?.id, isActive: true },
     include: { dailyWorkouts: { orderBy: { dayNumber: 'asc' } } },
   })
-  if (!challenge) redirect('/onboarding')
+  if (!challenge) redirect('/dashboard')
 
   const { currentDay, dailyWorkouts: workouts } = challenge
 

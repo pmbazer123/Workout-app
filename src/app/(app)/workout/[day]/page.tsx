@@ -16,7 +16,7 @@ export default async function WorkoutDayPage({ params }: { params: { day: string
     where: { isActive: true },
     include: { user: true },
   })
-  if (!challenge) redirect('/onboarding')
+  if (!challenge) redirect('/dashboard')
 
   // Rest day — always accessible
   if (REST_DAYS.has(dayNum)) {

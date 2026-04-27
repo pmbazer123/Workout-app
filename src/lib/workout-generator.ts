@@ -1,12 +1,9 @@
 import type { FitnessLevel, Equipment, WorkoutExerciseSlot, WeekPhase } from '@/types'
 
 // ── REST DAYS (1-indexed) ─────────────────────────────────────────────────────
-// Week 1: Days 4, 7  (2 rest days — Foundation phase is gentler)
-// Week 2: Day 11     (1 rest day)
-// Week 3: Day 18     (1 rest day)
-// Week 4: Day 25     (1 rest day)
-// Total: 5 rest days → 23 workout days
-export const REST_DAYS = new Set([4, 7, 11, 18, 25])
+// Sat + Sun every week (5 active days, 2 rest days per week)
+// Total: 8 rest days → 20 workout days
+export const REST_DAYS = new Set([6, 7, 13, 14, 20, 21, 27, 28])
 
 // ── PHASE MAP ─────────────────────────────────────────────────────────────────
 export function getPhase(day: number): { phase: WeekPhase; week: number; label: string } {

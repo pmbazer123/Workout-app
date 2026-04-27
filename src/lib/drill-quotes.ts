@@ -6,109 +6,132 @@ export interface DrillQuote {
 
 export const DRILL_QUOTES: DrillQuote[] = [
   // ── WORKOUT START ──────────────────────────────────────────────────────────
-  { text: 'Pain is weakness leaving the body. Now get on the floor.', context: 'start' },
   {
-    text: "Nobody said it was going to be easy. They said it was going to be worth it. MOVE.",
+    text: "You're 37. Your body is already writing its will. Today you rewrite it.",
     context: 'start',
   },
   {
-    text: "I've seen better form on a broken-down truck. Get it together, soldier.",
+    text: "Nobody's watching. Nobody cares. That's not an excuse — that's freedom.",
     context: 'start',
   },
   {
-    text: "Every rep you skip is a gift to your enemy. DO. NOT. GIVE. GIFTS.",
+    text: "The only difference between you and someone in shape is about 20 minutes. Starting now.",
     context: 'start',
   },
   {
-    text: "Drop and give me twenty. Not nineteen. Not twenty-one. TWENTY.",
+    text: "Your future self is either grateful or embarrassed. You decide which.",
     context: 'start',
   },
   {
-    text: "The only easy day was yesterday. Today you earn it.",
+    text: "You showed up. That's the bar. It's a low bar. Step over it.",
+    context: 'start',
+  },
+  {
+    text: "Warning: this workout will not kill you. Probably.",
     context: 'start',
   },
 
   // ── MID-WORKOUT TOASTS ─────────────────────────────────────────────────────
   {
-    text: "You call that a push-up? My grandmother does better. And she's buried.",
+    text: "Halfway done. The couch hasn't moved. It's waiting. Ignore it.",
     context: 'mid',
   },
   {
-    text: "Your body is lying to you. It says it's tired. IT IS NOT TIRED.",
+    text: "You're still here. Statistically impressive for someone your age.",
     context: 'mid',
   },
-  { text: "You don't stop when you're tired. You stop when you're DONE.", context: 'mid' },
   {
-    text: "The man who quits is the man who was never serious. Are you serious?",
+    text: "Your muscles are confused right now. That's called adaptation. Keep going.",
     context: 'mid',
   },
-  { text: "Last set. You didn't come this far to only come this far.", context: 'mid' },
-  { text: "HYDRATION CHECK. Drink water. Then get back in the fight.", context: 'mid' },
   {
-    text: "Halfway there, soldier. Outstanding. Now finish what you started.",
+    text: "The hard part was starting. The second hard part is right now.",
     context: 'mid',
   },
-  { text: "Your future self is watching. Don't embarrass them.", context: 'mid' },
+  {
+    text: "Fun fact: nobody has ever regretted finishing a workout. Not once. Ever.",
+    context: 'mid',
+  },
+  {
+    text: "This is the part where most people stop. You're not most people. Probably.",
+    context: 'mid',
+  },
 
   // ── REST PERIOD ────────────────────────────────────────────────────────────
-  { text: "Rest is a weapon. Not a reward. Use it wisely.", context: 'rest' },
   {
-    text: "Sixty seconds. Control the breathing. Prepare for contact.",
+    text: "Rest. The only mercy you'll get today.",
     context: 'rest',
   },
   {
-    text: "Champions don't sleep between rounds. They reset. Now reset.",
+    text: "Breathe. Your heart rate is coming down. Don't get too comfortable.",
     context: 'rest',
   },
-  { text: "Breathe. Count. Get ready. The next set won't wait.", context: 'rest' },
+  {
+    text: "Rest is part of the program. Quitting is not.",
+    context: 'rest',
+  },
+  {
+    text: "Use this time wisely. Think about the next set. Not the fridge.",
+    context: 'rest',
+  },
+  {
+    text: "30 seconds. Enough time to reconsider your life choices and continue anyway.",
+    context: 'rest',
+  },
+  {
+    text: "Almost there. The timer is not your enemy. Your sofa is.",
+    context: 'rest',
+  },
 
   // ── WORKOUT COMPLETE ───────────────────────────────────────────────────────
   {
-    text: "MISSION COMPLETE. That is what discipline tastes like. Remember it.",
+    text: "Mission complete. Your ancestors would be mildly impressed.",
     context: 'complete',
   },
   {
-    text: "You showed up. You finished. That is more than most people ever do. Dismissed.",
+    text: "Done. The couch was wrong about you.",
     context: 'complete',
   },
   {
-    text: "Every warrior has a moment that defines them. You just had yours.",
+    text: "That's one down. The rest of the plan is already waiting. Go eat something.",
     context: 'complete',
   },
   {
-    text: "Warriors are not born. They are built. Today you built something.",
+    text: "You did it. Log it. Don't overthink it. Tomorrow's already lined up.",
     context: 'complete',
   },
   {
-    text: "Outstanding, soldier. Recovery is a weapon — use it before tomorrow.",
+    text: "Finished. Not bad for a 37-year-old.",
+    context: 'complete',
+  },
+  {
+    text: "You trained today. That puts you ahead of the version of you who almost skipped.",
     context: 'complete',
   },
 
-  // ── GENERAL (dashboard / progress) ────────────────────────────────────────
+  // ── GENERAL (dashboard daily order) ───────────────────────────────────────
   {
-    text: 'Discipline is the bridge between goals and accomplishment.',
-    attribution: 'Jim Rohn',
+    text: "Showing up is 90% of it. The other 10% is not lying about showing up.",
     context: 'general',
   },
   {
-    text: 'The more you sweat in training, the less you bleed in battle.',
+    text: "Consistency beats intensity every time. But intensity is why you're reading this.",
     context: 'general',
   },
   {
-    text: 'Suffer the pain of discipline or suffer the pain of regret. Choose.',
+    text: "Your competition is yesterday's version of you. He was less fit.",
     context: 'general',
   },
   {
-    text: 'We do not rise to the level of our expectations — we fall to the level of our training.',
-    attribution: 'Archilochus',
+    text: "28 days. You've wasted longer on worse things.",
     context: 'general',
   },
   {
-    text: "It never gets easier. You just get better.",
+    text: "The plan is simple. Getting off the sofa is the hard part.",
     context: 'general',
   },
   {
-    text: "What the mind can conceive and believe, the body can achieve. Conceive harder.",
+    text: "You don't need motivation. You need a calendar and a bad memory for excuses.",
     context: 'general',
   },
 ]

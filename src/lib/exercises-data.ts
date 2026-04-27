@@ -418,4 +418,160 @@ export const EXERCISES: Omit<ExerciseData, 'id'>[] = [
     equipment: ['none'],
     fitnessLevels: ['Operator'],
   },
+
+  // ── YOUR PLAN (tailored additions) ───────────────────────────────────────
+
+  {
+    name: 'Decline Push-Up',
+    category: 'push',
+    description:
+      'Push-up with feet elevated on a chair or step. Shifts load onto the upper chest and anterior deltoids.',
+    musclesTargeted: ['upper chest', 'anterior deltoid', 'triceps', 'core'],
+    formCues: [
+      'Place feet on a chair or step, hands on the floor shoulder-width',
+      'Body forms a straight line — do not let hips sag or pike',
+      'Lower until chest nearly touches the floor',
+      'Elbows track at 45° — not flared wide',
+      'Push to full lockout at the top',
+      'The higher the feet, the greater the upper chest demand',
+    ],
+    equipment: ['none'],
+    fitnessLevels: ['Soldier', 'Operator'],
+  },
+  {
+    name: 'Diamond Push-Up',
+    category: 'push',
+    description:
+      'Close-grip push-up with hands forming a diamond shape. Maximum tricep recruitment.',
+    musclesTargeted: ['triceps', 'inner chest', 'anterior deltoid'],
+    formCues: [
+      'Place hands directly under chest, thumbs and index fingers touching to form a diamond',
+      'Keep elbows tight to your sides throughout — no flaring',
+      'Lower chest toward the diamond, not your face',
+      'Press straight back up — full lockout',
+      'Harder than standard push-ups — do not rush reps',
+      'If wrists hurt, use push-up handles or wider hand spacing',
+    ],
+    equipment: ['none'],
+    fitnessLevels: ['Soldier', 'Operator'],
+  },
+  {
+    name: 'Chin-Up',
+    category: 'pull',
+    description:
+      'Underhand-grip pull-up. Greater bicep involvement than pull-ups while still hammering the lats.',
+    musclesTargeted: ['biceps', 'latissimus dorsi', 'rhomboids', 'core'],
+    formCues: [
+      'Grip the bar underhand (palms facing you), shoulder-width',
+      'Dead hang start — full arm extension',
+      'Pull chest toward the bar, not just chin over it',
+      'Drive elbows down and back — feel the lats engage',
+      'Lower with control — 2-3 seconds down',
+      'Do not swing or kip — earn every rep',
+    ],
+    equipment: ['pull_up_bar'],
+    fitnessLevels: ['Soldier', 'Operator'],
+  },
+  {
+    name: 'Bulgarian Split Squat',
+    category: 'legs',
+    description:
+      'Single-leg squat with rear foot elevated. The hardest bodyweight leg exercise you are not doing enough of.',
+    musclesTargeted: ['quadriceps', 'glutes', 'hamstrings', 'hip flexors', 'core'],
+    formCues: [
+      'Rear foot rests on a chair or step behind you, laces down',
+      'Front foot far enough forward that front shin stays vertical at the bottom',
+      'Lower straight down — rear knee toward the floor',
+      'Keep torso upright — do not lean forward',
+      'Drive through the front heel to stand',
+      'Complete all reps one leg, then switch — do not alternate',
+    ],
+    equipment: ['none'],
+    fitnessLevels: ['Soldier', 'Operator'],
+  },
+  {
+    name: 'Step-Up',
+    category: 'legs',
+    description:
+      'Unilateral step onto a raised surface. Builds single-leg strength and hip stability.',
+    musclesTargeted: ['quadriceps', 'glutes', 'hamstrings', 'core'],
+    formCues: [
+      'Use a sturdy chair, step, or box at roughly knee height',
+      'Place one foot fully on the surface — entire foot, not just toes',
+      'Drive through the heel of the elevated foot to step up',
+      'Stand tall at the top — fully extend the hip',
+      'Step down with control — do not drop',
+      'Complete all reps one leg, then switch',
+    ],
+    equipment: ['none'],
+    fitnessLevels: ['Soldier', 'Operator'],
+  },
+  {
+    name: 'Easy Run',
+    category: 'cardio',
+    description:
+      'A 20-minute run at conversational pace. You should be able to hold full sentences. This builds your aerobic base without beating up your body.',
+    musclesTargeted: ['quads', 'hamstrings', 'calves', 'glutes', 'cardiovascular system'],
+    formCues: [
+      'Pace: you can hold a full conversation — if you cannot, slow down',
+      'Foot strike under your hips — not out in front',
+      'Slight forward lean from the ankles, not the waist',
+      'Arms swing front to back — not across your body',
+      'Breathe in through nose and mouth, out through mouth',
+      'The goal is time on feet, not speed — this is recovery work',
+    ],
+    equipment: ['none'],
+    fitnessLevels: ['Recruit', 'Soldier', 'Operator'],
+  },
+  {
+    name: 'Running Intervals',
+    category: 'cardio',
+    description:
+      '5 rounds of 2 minutes hard effort with 60 seconds easy jogging recovery. This is where your fitness actually improves.',
+    musclesTargeted: ['quads', 'hamstrings', 'calves', 'glutes', 'cardiovascular system'],
+    formCues: [
+      'Hard effort: 7-8 out of 10 — pushing but not sprinting',
+      'You should only manage 2-3 words between breaths on the hard intervals',
+      'Recovery jog: slow right down, let your heart rate drop',
+      'Start each interval from the same spot if on a loop',
+      'The timer counts down your 2 minutes — go when it starts',
+      'Each set is one hard interval — rest between sets is your 60s recovery',
+    ],
+    equipment: ['none'],
+    fitnessLevels: ['Soldier', 'Operator'],
+  },
+  {
+    name: 'Tempo Run',
+    category: 'cardio',
+    description:
+      '15 minutes at comfortably hard pace — the threshold where easy becomes difficult. Raises your lactate threshold so everything else feels easier.',
+    musclesTargeted: ['quads', 'hamstrings', 'calves', 'glutes', 'cardiovascular system'],
+    formCues: [
+      'Pace: 6-7 out of 10 — hard but sustainable for the full 15 minutes',
+      'You can say a few words but not hold a conversation',
+      'Do 5 minutes easy jogging before starting the timer',
+      'Do 5 minutes easy jogging after to cool down',
+      'Keep effort steady — do not start too fast',
+      'Focus on breathing rhythm: 2 steps inhale, 2 steps exhale',
+    ],
+    equipment: ['none'],
+    fitnessLevels: ['Soldier', 'Operator'],
+  },
+  {
+    name: 'Steady Run',
+    category: 'cardio',
+    description:
+      '25 minutes at a moderate, controlled effort. Harder than easy, easier than tempo. Builds endurance and mental toughness.',
+    musclesTargeted: ['quads', 'hamstrings', 'calves', 'glutes', 'cardiovascular system'],
+    formCues: [
+      'Pace: 5-6 out of 10 — you can talk but prefer not to',
+      'This is 5 minutes longer than week 1 — expect it to feel harder',
+      'Do 5 minutes easy jogging before starting the timer',
+      'Keep form consistent throughout — when tired, focus on cadence',
+      'If you need to slow down, slow down — do not walk unless injured',
+      'You have earned this run. Four weeks of training brought you here.',
+    ],
+    equipment: ['none'],
+    fitnessLevels: ['Soldier', 'Operator'],
+  },
 ]
