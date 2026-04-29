@@ -185,7 +185,7 @@ export function WorkoutScreen({
   const curDetail = curEx ? exerciseDetails[curEx.exerciseName] : undefined
 
   return (
-    <div className="min-h-screen bg-matte-black flex flex-col">
+    <div className="h-[100dvh] bg-matte-black flex flex-col overflow-hidden">
 
       {/* Header */}
       <header className="px-4 pt-10 pb-3 flex items-center justify-between gap-3">
@@ -307,14 +307,14 @@ export function WorkoutScreen({
               </div>
 
               {/* Big rep/duration display */}
-              <div className="flex-1 flex flex-col items-center justify-center">
+              <div className="flex flex-col items-center justify-center py-4">
                 {curEx.reps != null ? (
                   <>
                     <motion.div
                       key={`rep-${setIdx}`}
                       initial={{ scale: 0.8, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
-                      className="font-heading text-[6rem] leading-none text-text-primary"
+                      className="font-heading text-[5rem] leading-none text-text-primary"
                     >
                       {curEx.reps}
                     </motion.div>
@@ -537,7 +537,7 @@ function ExerciseCountdown({
 
   return (
     <div className="flex flex-col items-center gap-4">
-      <div className="font-heading text-[6rem] leading-none text-blaze">{left}</div>
+      <div className="font-heading text-[5rem] leading-none text-blaze">{left}</div>
       <p className="text-stencil text-sm text-text-muted tracking-widest">SECONDS</p>
       <div className="w-full h-2 bg-dark-border rounded-full overflow-hidden">
         <motion.div
