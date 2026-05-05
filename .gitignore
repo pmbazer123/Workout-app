@@ -34,3 +34,6 @@ prisma/dev.db
 prisma/dev.db-journal
 prisma/*.db
 prisma/*.db-journal
+
+# Bot local state
+bot-data/*.json

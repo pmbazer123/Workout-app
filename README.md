@@ -34,7 +34,37 @@ npm run db:push     # Push schema changes to the database
 npm run db:seed     # Re-seed exercise library (idempotent)
 npm run db:studio   # Open Prisma Studio to inspect data
 npm run db:reset    # Wipe and re-seed (start fresh)
+npm run bot:start   # Start the Telegram workout bot
 ```
+
+## Telegram Workout Bot
+
+A lightweight Telegram bot now lives in `bot/`.
+
+### What it does
+- `today` , sends the current day workout
+- `done` , marks the current workout day complete
+- `status` , shows progress
+- daily reminder at **05:30** with the full workout
+- skips **Shabbat** reminders
+- auto-advances rest days after their date passes
+- adds short motivational phrases for gamification
+
+### Setup
+1. Copy `.env.example` to `.env`
+2. Fill in `TELEGRAM_BOT_TOKEN`
+3. Set `TELEGRAM_ALLOWED_CHAT_ID` to your Telegram chat id
+4. Optionally set `WORKOUT_START_DATE` if you want to force a specific Day 1 date
+5. Run:
+
+```bash
+npm run bot:start
+```
+
+### Data files
+- `bot/workout-plan.json` , structured workout source for the bot
+- `bot-data/telegram-workout-state.json` , local persisted bot state
+- `docs/telegram-bot-spec.md` , behavior spec
 
 ## Stack
 

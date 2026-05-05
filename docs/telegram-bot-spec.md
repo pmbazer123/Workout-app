@@ -58,11 +58,14 @@ Example fields:
 #### 4. Automatic daily reminder
 At **05:30 Asia/Jerusalem**, the bot sends the current day's workout.
 
-Reminder content should be similar to `today`, but slightly shorter at the top:
+Reminder content should contain the full daily workout, not just a short summary.
+
+Reminder shape:
 - `Good morning. Today's workout is Day X.`
 - Focus
-- Exercise list
+- Full exercise list
 - `Reply with done when you finish.`
+- A short motivational / gamified phrase
 
 ## Progress Model
 The bot should use **sequential manual progression**.
@@ -118,7 +121,7 @@ Today's mission is recovery.
 - Stretching
 - Hydration
 
-Reply: `done` when you want to move on.
+Rest days advance automatically. No need to send `done`.
 
 ## Out of Scope for V1
 - editing the workout plan from Telegram
@@ -129,15 +132,15 @@ Reply: `done` when you want to move on.
 - admin panel
 - AI coaching
 
-## Open Questions Before Build
-1. Should the bot remind on **Shabbat** too, or skip Shabbat reminders?
-2. On a rest day, should `done` advance normally, or should rest days auto-advance the next morning?
-3. Do you want commands in English (`today`, `done`, `status`) or Hebrew?
-
-## Recommended Defaults
-If no further decision is made, use:
+## Locked Decisions
 - reminders at **05:30 Asia/Jerusalem**
-- commands: `today`, `done`, `status`
-- sequential manual progression
-- rest days require `done` too
-- no Shabbat automation unless explicitly approved
+- commands stay in English: `today`, `done`, `status`
+- automatic reminders should **skip Shabbat**
+- reminders should contain the **full daily workout**
+- rest days do **not** require `done`
+- motivational / gamified phrases should be included in daily messages
+
+## Progression Rule
+- workout days advance only when Moshe sends `done`
+- rest days advance automatically once their calendar date has passed
+- if Moshe is behind on a workout day, the bot stays on that workout day until it is marked done

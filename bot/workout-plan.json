@@ -1,0 +1,893 @@
+{
+  "totalDays": 28,
+  "days": [
+    {
+      "dayNumber": 1,
+      "phase": "Week 1, Foundation",
+      "focus": "Push + Core",
+      "isRestDay": false,
+      "activities": [],
+      "exercises": [
+        {
+          "name": "Push-Up",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "restSeconds": 45
+        },
+        {
+          "name": "Pike Push-Up",
+          "sets": 3,
+          "reps": 8,
+          "durationSeconds": null,
+          "restSeconds": 45
+        },
+        {
+          "name": "Tricep Dip (Floor)",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "restSeconds": 45
+        },
+        {
+          "name": "Plank",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 30,
+          "restSeconds": 30
+        }
+      ]
+    },
+    {
+      "dayNumber": 2,
+      "phase": "Week 1, Foundation",
+      "focus": "Run",
+      "isRestDay": false,
+      "activities": [],
+      "exercises": [
+        {
+          "name": "Easy Run",
+          "sets": 1,
+          "reps": null,
+          "durationSeconds": 1200,
+          "restSeconds": 0
+        }
+      ]
+    },
+    {
+      "dayNumber": 3,
+      "phase": "Week 1, Foundation",
+      "focus": "Pull + Core",
+      "isRestDay": false,
+      "activities": [],
+      "exercises": [
+        {
+          "name": "Inverted Row",
+          "sets": 3,
+          "reps": 8,
+          "durationSeconds": null,
+          "restSeconds": 60
+        },
+        {
+          "name": "Pull-Up",
+          "sets": 3,
+          "reps": 4,
+          "durationSeconds": null,
+          "restSeconds": 90
+        },
+        {
+          "name": "Hanging Knee Raise",
+          "sets": 3,
+          "reps": 8,
+          "durationSeconds": null,
+          "restSeconds": 45
+        },
+        {
+          "name": "Superman Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 20,
+          "restSeconds": 30
+        }
+      ]
+    },
+    {
+      "dayNumber": 4,
+      "phase": "Week 1, Foundation",
+      "focus": "Legs + Core",
+      "isRestDay": false,
+      "activities": [],
+      "exercises": [
+        {
+          "name": "Bodyweight Squat",
+          "sets": 3,
+          "reps": 20,
+          "durationSeconds": null,
+          "restSeconds": 30
+        },
+        {
+          "name": "Reverse Lunge",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "restSeconds": 45
+        },
+        {
+          "name": "Glute Bridge",
+          "sets": 3,
+          "reps": 15,
+          "durationSeconds": null,
+          "restSeconds": 30
+        },
+        {
+          "name": "Mountain Climber",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 30,
+          "restSeconds": 30
+        }
+      ]
+    },
+    {
+      "dayNumber": 5,
+      "phase": "Week 1, Foundation",
+      "focus": "Full Body",
+      "isRestDay": false,
+      "activities": [],
+      "exercises": [
+        {
+          "name": "Push-Up",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "restSeconds": 30
+        },
+        {
+          "name": "Bodyweight Squat",
+          "sets": 3,
+          "reps": 15,
+          "durationSeconds": null,
+          "restSeconds": 30
+        },
+        {
+          "name": "Pull-Up",
+          "sets": 3,
+          "reps": 4,
+          "durationSeconds": null,
+          "restSeconds": 60
+        },
+        {
+          "name": "Plank",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 30,
+          "restSeconds": 30
+        }
+      ]
+    },
+    {
+      "dayNumber": 6,
+      "phase": "Week 1, Foundation",
+      "focus": "Rest / Recovery",
+      "isRestDay": true,
+      "activities": [
+        {
+          "title": "Light walk",
+          "duration": "15-30 min",
+          "description": "Get blood flowing without turning it into another workout."
+        },
+        {
+          "title": "Mobility",
+          "duration": "10 min",
+          "description": "Loosen hips, shoulders, ankles, and thoracic spine."
+        },
+        {
+          "title": "Stretching",
+          "duration": "10 min",
+          "description": "Stay easy and controlled, not aggressive."
+        },
+        {
+          "title": "Hydration",
+          "duration": "All day",
+          "description": "Treat recovery like part of the mission."
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "dayNumber": 7,
+      "phase": "Week 1, Foundation",
+      "focus": "Rest / Recovery",
+      "isRestDay": true,
+      "activities": [
+        {
+          "title": "Light walk",
+          "duration": "15-30 min",
+          "description": "Get blood flowing without turning it into another workout."
+        },
+        {
+          "title": "Mobility",
+          "duration": "10 min",
+          "description": "Loosen hips, shoulders, ankles, and thoracic spine."
+        },
+        {
+          "title": "Stretching",
+          "duration": "10 min",
+          "description": "Stay easy and controlled, not aggressive."
+        },
+        {
+          "title": "Hydration",
+          "duration": "All day",
+          "description": "Treat recovery like part of the mission."
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "dayNumber": 8,
+      "phase": "Week 2, Building",
+      "focus": "Push + Core",
+      "isRestDay": false,
+      "activities": [],
+      "exercises": [
+        {
+          "name": "Push-Up",
+          "sets": 3,
+          "reps": 15,
+          "durationSeconds": null,
+          "restSeconds": 45
+        },
+        {
+          "name": "Decline Push-Up",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "restSeconds": 45
+        },
+        {
+          "name": "Tricep Dip (Floor)",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "restSeconds": 45
+        },
+        {
+          "name": "Hollow Body Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 20,
+          "restSeconds": 30
+        }
+      ]
+    },
+    {
+      "dayNumber": 9,
+      "phase": "Week 2, Building",
+      "focus": "Intervals",
+      "isRestDay": false,
+      "activities": [],
+      "exercises": [
+        {
+          "name": "Running Intervals",
+          "sets": 5,
+          "reps": null,
+          "durationSeconds": 120,
+          "restSeconds": 60
+        }
+      ]
+    },
+    {
+      "dayNumber": 10,
+      "phase": "Week 2, Building",
+      "focus": "Pull + Core",
+      "isRestDay": false,
+      "activities": [],
+      "exercises": [
+        {
+          "name": "Inverted Row",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "restSeconds": 60
+        },
+        {
+          "name": "Pull-Up",
+          "sets": 3,
+          "reps": 5,
+          "durationSeconds": null,
+          "restSeconds": 90
+        },
+        {
+          "name": "Chin-Up",
+          "sets": 3,
+          "reps": 4,
+          "durationSeconds": null,
+          "restSeconds": 90
+        },
+        {
+          "name": "Hanging Knee Raise",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "restSeconds": 45
+        }
+      ]
+    },
+    {
+      "dayNumber": 11,
+      "phase": "Week 2, Building",
+      "focus": "Legs + Core",
+      "isRestDay": false,
+      "activities": [],
+      "exercises": [
+        {
+          "name": "Bodyweight Squat",
+          "sets": 3,
+          "reps": 25,
+          "durationSeconds": null,
+          "restSeconds": 30
+        },
+        {
+          "name": "Bulgarian Split Squat",
+          "sets": 3,
+          "reps": 8,
+          "durationSeconds": null,
+          "restSeconds": 60
+        },
+        {
+          "name": "Glute Bridge",
+          "sets": 3,
+          "reps": 20,
+          "durationSeconds": null,
+          "restSeconds": 30
+        },
+        {
+          "name": "Mountain Climber",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 40,
+          "restSeconds": 30
+        }
+      ]
+    },
+    {
+      "dayNumber": 12,
+      "phase": "Week 2, Building",
+      "focus": "Full Body",
+      "isRestDay": false,
+      "activities": [],
+      "exercises": [
+        {
+          "name": "Push-Up",
+          "sets": 4,
+          "reps": 12,
+          "durationSeconds": null,
+          "restSeconds": 30
+        },
+        {
+          "name": "Reverse Lunge",
+          "sets": 4,
+          "reps": 10,
+          "durationSeconds": null,
+          "restSeconds": 30
+        },
+        {
+          "name": "Pull-Up",
+          "sets": 4,
+          "reps": 5,
+          "durationSeconds": null,
+          "restSeconds": 60
+        },
+        {
+          "name": "Plank",
+          "sets": 4,
+          "reps": null,
+          "durationSeconds": 30,
+          "restSeconds": 30
+        }
+      ]
+    },
+    {
+      "dayNumber": 13,
+      "phase": "Week 2, Building",
+      "focus": "Rest / Recovery",
+      "isRestDay": true,
+      "activities": [
+        {
+          "title": "Light walk",
+          "duration": "15-30 min",
+          "description": "Get blood flowing without turning it into another workout."
+        },
+        {
+          "title": "Mobility",
+          "duration": "10 min",
+          "description": "Loosen hips, shoulders, ankles, and thoracic spine."
+        },
+        {
+          "title": "Stretching",
+          "duration": "10 min",
+          "description": "Stay easy and controlled, not aggressive."
+        },
+        {
+          "title": "Hydration",
+          "duration": "All day",
+          "description": "Treat recovery like part of the mission."
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "dayNumber": 14,
+      "phase": "Week 2, Building",
+      "focus": "Rest / Recovery",
+      "isRestDay": true,
+      "activities": [
+        {
+          "title": "Light walk",
+          "duration": "15-30 min",
+          "description": "Get blood flowing without turning it into another workout."
+        },
+        {
+          "title": "Mobility",
+          "duration": "10 min",
+          "description": "Loosen hips, shoulders, ankles, and thoracic spine."
+        },
+        {
+          "title": "Stretching",
+          "duration": "10 min",
+          "description": "Stay easy and controlled, not aggressive."
+        },
+        {
+          "title": "Hydration",
+          "duration": "All day",
+          "description": "Treat recovery like part of the mission."
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "dayNumber": 15,
+      "phase": "Week 3, Intensity",
+      "focus": "Push + Core",
+      "isRestDay": false,
+      "activities": [],
+      "exercises": [
+        {
+          "name": "Diamond Push-Up",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "restSeconds": 60
+        },
+        {
+          "name": "Pike Push-Up",
+          "sets": 4,
+          "reps": 10,
+          "durationSeconds": null,
+          "restSeconds": 45
+        },
+        {
+          "name": "Tricep Dip (Floor)",
+          "sets": 4,
+          "reps": 12,
+          "durationSeconds": null,
+          "restSeconds": 45
+        },
+        {
+          "name": "Hollow Body Hold",
+          "sets": 4,
+          "reps": null,
+          "durationSeconds": 25,
+          "restSeconds": 30
+        }
+      ]
+    },
+    {
+      "dayNumber": 16,
+      "phase": "Week 3, Intensity",
+      "focus": "Tempo Run",
+      "isRestDay": false,
+      "activities": [],
+      "exercises": [
+        {
+          "name": "Tempo Run",
+          "sets": 1,
+          "reps": null,
+          "durationSeconds": 900,
+          "restSeconds": 0
+        }
+      ]
+    },
+    {
+      "dayNumber": 17,
+      "phase": "Week 3, Intensity",
+      "focus": "Pull + Core",
+      "isRestDay": false,
+      "activities": [],
+      "exercises": [
+        {
+          "name": "Pull-Up",
+          "sets": 4,
+          "reps": 5,
+          "durationSeconds": null,
+          "restSeconds": 90
+        },
+        {
+          "name": "Chin-Up",
+          "sets": 4,
+          "reps": 6,
+          "durationSeconds": null,
+          "restSeconds": 90
+        },
+        {
+          "name": "Inverted Row",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "restSeconds": 60
+        },
+        {
+          "name": "Hanging Knee Raise",
+          "sets": 4,
+          "reps": 10,
+          "durationSeconds": null,
+          "restSeconds": 45
+        }
+      ]
+    },
+    {
+      "dayNumber": 18,
+      "phase": "Week 3, Intensity",
+      "focus": "Legs + Core",
+      "isRestDay": false,
+      "activities": [],
+      "exercises": [
+        {
+          "name": "Bulgarian Split Squat",
+          "sets": 4,
+          "reps": 10,
+          "durationSeconds": null,
+          "restSeconds": 60
+        },
+        {
+          "name": "Step-Up",
+          "sets": 3,
+          "reps": 15,
+          "durationSeconds": null,
+          "restSeconds": 45
+        },
+        {
+          "name": "Glute Bridge",
+          "sets": 4,
+          "reps": 20,
+          "durationSeconds": null,
+          "restSeconds": 30
+        },
+        {
+          "name": "Mountain Climber",
+          "sets": 4,
+          "reps": null,
+          "durationSeconds": 40,
+          "restSeconds": 30
+        }
+      ]
+    },
+    {
+      "dayNumber": 19,
+      "phase": "Week 3, Intensity",
+      "focus": "Full Body",
+      "isRestDay": false,
+      "activities": [],
+      "exercises": [
+        {
+          "name": "Push-Up",
+          "sets": 4,
+          "reps": 15,
+          "durationSeconds": null,
+          "restSeconds": 30
+        },
+        {
+          "name": "Bodyweight Squat",
+          "sets": 4,
+          "reps": 20,
+          "durationSeconds": null,
+          "restSeconds": 30
+        },
+        {
+          "name": "Pull-Up",
+          "sets": 4,
+          "reps": 5,
+          "durationSeconds": null,
+          "restSeconds": 60
+        },
+        {
+          "name": "Plank",
+          "sets": 4,
+          "reps": null,
+          "durationSeconds": 40,
+          "restSeconds": 30
+        }
+      ]
+    },
+    {
+      "dayNumber": 20,
+      "phase": "Week 3, Intensity",
+      "focus": "Rest / Recovery",
+      "isRestDay": true,
+      "activities": [
+        {
+          "title": "Light walk",
+          "duration": "15-30 min",
+          "description": "Get blood flowing without turning it into another workout."
+        },
+        {
+          "title": "Mobility",
+          "duration": "10 min",
+          "description": "Loosen hips, shoulders, ankles, and thoracic spine."
+        },
+        {
+          "title": "Stretching",
+          "duration": "10 min",
+          "description": "Stay easy and controlled, not aggressive."
+        },
+        {
+          "title": "Hydration",
+          "duration": "All day",
+          "description": "Treat recovery like part of the mission."
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "dayNumber": 21,
+      "phase": "Week 3, Intensity",
+      "focus": "Rest / Recovery",
+      "isRestDay": true,
+      "activities": [
+        {
+          "title": "Light walk",
+          "duration": "15-30 min",
+          "description": "Get blood flowing without turning it into another workout."
+        },
+        {
+          "title": "Mobility",
+          "duration": "10 min",
+          "description": "Loosen hips, shoulders, ankles, and thoracic spine."
+        },
+        {
+          "title": "Stretching",
+          "duration": "10 min",
+          "description": "Stay easy and controlled, not aggressive."
+        },
+        {
+          "title": "Hydration",
+          "duration": "All day",
+          "description": "Treat recovery like part of the mission."
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "dayNumber": 22,
+      "phase": "Week 4, Peak",
+      "focus": "Push + Core",
+      "isRestDay": false,
+      "activities": [],
+      "exercises": [
+        {
+          "name": "Diamond Push-Up",
+          "sets": 4,
+          "reps": 12,
+          "durationSeconds": null,
+          "restSeconds": 60
+        },
+        {
+          "name": "Decline Push-Up",
+          "sets": 4,
+          "reps": 12,
+          "durationSeconds": null,
+          "restSeconds": 60
+        },
+        {
+          "name": "Pike Push-Up",
+          "sets": 4,
+          "reps": 10,
+          "durationSeconds": null,
+          "restSeconds": 60
+        },
+        {
+          "name": "Tricep Dip (Floor)",
+          "sets": 4,
+          "reps": 15,
+          "durationSeconds": null,
+          "restSeconds": 60
+        }
+      ]
+    },
+    {
+      "dayNumber": 23,
+      "phase": "Week 4, Peak",
+      "focus": "Steady Run",
+      "isRestDay": false,
+      "activities": [],
+      "exercises": [
+        {
+          "name": "Steady Run",
+          "sets": 1,
+          "reps": null,
+          "durationSeconds": 1500,
+          "restSeconds": 0
+        }
+      ]
+    },
+    {
+      "dayNumber": 24,
+      "phase": "Week 4, Peak",
+      "focus": "Pull + Core",
+      "isRestDay": false,
+      "activities": [],
+      "exercises": [
+        {
+          "name": "Pull-Up",
+          "sets": 5,
+          "reps": 5,
+          "durationSeconds": null,
+          "restSeconds": 90
+        },
+        {
+          "name": "Chin-Up",
+          "sets": 5,
+          "reps": 6,
+          "durationSeconds": null,
+          "restSeconds": 90
+        },
+        {
+          "name": "Hanging Knee Raise",
+          "sets": 4,
+          "reps": 12,
+          "durationSeconds": null,
+          "restSeconds": 45
+        },
+        {
+          "name": "Superman Hold",
+          "sets": 4,
+          "reps": null,
+          "durationSeconds": 30,
+          "restSeconds": 30
+        }
+      ]
+    },
+    {
+      "dayNumber": 25,
+      "phase": "Week 4, Peak",
+      "focus": "Legs + Core",
+      "isRestDay": false,
+      "activities": [],
+      "exercises": [
+        {
+          "name": "Bulgarian Split Squat",
+          "sets": 4,
+          "reps": 12,
+          "durationSeconds": null,
+          "restSeconds": 60
+        },
+        {
+          "name": "Step-Up",
+          "sets": 4,
+          "reps": 15,
+          "durationSeconds": null,
+          "restSeconds": 45
+        },
+        {
+          "name": "Glute Bridge",
+          "sets": 4,
+          "reps": 20,
+          "durationSeconds": null,
+          "restSeconds": 30
+        },
+        {
+          "name": "Mountain Climber",
+          "sets": 4,
+          "reps": null,
+          "durationSeconds": 45,
+          "restSeconds": 30
+        }
+      ]
+    },
+    {
+      "dayNumber": 26,
+      "phase": "Week 4, Peak",
+      "focus": "Final Mission",
+      "isRestDay": false,
+      "activities": [],
+      "exercises": [
+        {
+          "name": "Push-Up",
+          "sets": 5,
+          "reps": 20,
+          "durationSeconds": null,
+          "restSeconds": 60
+        },
+        {
+          "name": "Pull-Up",
+          "sets": 5,
+          "reps": 8,
+          "durationSeconds": null,
+          "restSeconds": 90
+        },
+        {
+          "name": "Bodyweight Squat",
+          "sets": 5,
+          "reps": 25,
+          "durationSeconds": null,
+          "restSeconds": 60
+        },
+        {
+          "name": "Plank",
+          "sets": 5,
+          "reps": null,
+          "durationSeconds": 45,
+          "restSeconds": 45
+        }
+      ]
+    },
+    {
+      "dayNumber": 27,
+      "phase": "Week 4, Peak",
+      "focus": "Rest / Recovery",
+      "isRestDay": true,
+      "activities": [
+        {
+          "title": "Light walk",
+          "duration": "15-30 min",
+          "description": "Get blood flowing without turning it into another workout."
+        },
+        {
+          "title": "Mobility",
+          "duration": "10 min",
+          "description": "Loosen hips, shoulders, ankles, and thoracic spine."
+        },
+        {
+          "title": "Stretching",
+          "duration": "10 min",
+          "description": "Stay easy and controlled, not aggressive."
+        },
+        {
+          "title": "Hydration",
+          "duration": "All day",
+          "description": "Treat recovery like part of the mission."
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "dayNumber": 28,
+      "phase": "Week 4, Peak",
+      "focus": "Rest / Recovery",
+      "isRestDay": true,
+      "activities": [
+        {
+          "title": "Light walk",
+          "duration": "15-30 min",
+          "description": "Get blood flowing without turning it into another workout."
+        },
+        {
+          "title": "Mobility",
+          "duration": "10 min",
+          "description": "Loosen hips, shoulders, ankles, and thoracic spine."
+        },
+        {
+          "title": "Stretching",
+          "duration": "10 min",
+          "description": "Stay easy and controlled, not aggressive."
+        },
+        {
+          "title": "Hydration",
+          "duration": "All day",
+          "description": "Treat recovery like part of the mission."
+        }
+      ],
+      "exercises": []
+    }
+  ]
+}
