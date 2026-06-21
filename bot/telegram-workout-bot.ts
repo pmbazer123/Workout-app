@@ -277,13 +277,14 @@ const EXERCISE_GUIDES: Record<string, ExerciseGuide> = {
     ],
     note: 'Make it harder by moving your feet forward so the body is more horizontal. Easier: slide feet back so the torso is more upright.',
   },
-  'inverted row feet elevated': {
-    summary: 'A harder inverted row with feet up on a chair, making the body more horizontal and increasing the pulling load.',
+  'superman hold': {
+    summary: 'Prone back extension that trains rear delts, rhomboids, and lower back. A true bodyweight posterior chain exercise.',
     cues: [
-      'Place feet on a chair at roughly the same height as the table edge you are gripping',
-      'Body forms a straight line from heels to shoulders — do not let hips sag or pike',
-      'Pull chest to the table edge with a full contraction at the top, lower all the way down',
+      'Lie face-down on the floor, arms extended overhead',
+      'Lift your chest, arms, and legs off the floor simultaneously',
+      'Squeeze shoulder blades together and hold 2 seconds at the top, then lower with control',
     ],
+    note: 'Focus on squeezing hard at the top rather than getting maximum height. Tension matters more than range.',
   },
   'easy run': {
     summary: 'A conversational pace run. You should be able to speak in full sentences.',
