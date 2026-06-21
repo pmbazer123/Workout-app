@@ -44,11 +44,18 @@ A lightweight Telegram bot now lives in `bot/`.
 ### What it does
 - `today` , sends the current day workout
 - `done` , marks the current workout day complete
+- `rest` , makes today a chosen rest day without counting it as skipped
+- `skip` , logs a skipped workout day and moves forward
+- `undo` , reverts the last mistaken done/skip action
 - `status` , shows progress
+- `swap` , switches today and tomorrow when plans change
 - daily reminder at **05:30** with the full workout
 - skips **Shabbat** reminders
 - auto-advances rest days after their date passes
 - adds short motivational phrases for gamification
+- includes inline buttons for all main actions
+- asks for confirmation before `skip`
+- shows a more visual progress / streak status
 
 ### Setup
 1. Copy `.env.example` to `.env`

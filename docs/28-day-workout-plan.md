@@ -2,319 +2,374 @@
 
 **Start date:** Tuesday, May 05, 2026
 
-This document is based on the current workout app plan, converted into a simple manual format you can actually follow day by day.
+This version is built around your real constraints and your latest benchmark signal:
 
-## How to use this
+- **2 running days per week**
+- **2 rest days per week**
+- **Dedicated strength workouts** stay around **20-30 minutes**
+- **Run days** finish with a short **10-20 minute accessory block**
+- **Shabbat can function as a true recovery day**
+- **No pull-up bar at home right now**, so all pulling work is still built around **loaded backpack rows** and floor-based core work
+- For now we are treating your **pull as roughly on par with your push**, so the row work is programmed like real strength work, not like a weak-point placeholder
+- You also have a **loaded Crye JPC with Hesco level 4 plates**, so we can use it selectively for **leg work and easy walks**
 
-- Start with **Day 1 today**.
-- When you finish a day, move to the next numbered day.
-- Rest days are part of the program, not skipped days.
-- If a day feels too hard, reduce reps a bit but keep the structure.
+## Programming rules
+
+- On strength sets, stop with about **1-2 reps in reserve**. Keep form crisp.
+- For row work, use a **backpack loaded with books or bottles**. Make it challenging, but never sloppy.
+- If the row work starts feeling easy, **add backpack load before chasing endless reps**.
+- Use the **armor vest** for split squats, lunges, and optional easy walks only when it feels stable and does not irritate your shoulders or low back.
+- **Do not run in the vest.**
+- After the run, the goal is **quality accessory work**, not another full workout.
+- Once you get a pull-up bar, we can reintroduce vertical pulling immediately.
 
 ## 28-Day Schedule
 
-### Day 1 — Tuesday, May 05, 2026
+### Day 1 — Week 1, Foundation
 
-**Phase:** Week 1, Foundation
-
-**Focus:** Push + Core
+**Focus:** Push + Legs + Core
 
 **Workout details:**
-- **Push-Up**: 3 sets × 12 reps. Rest 45 sec.
-- **Pike Push-Up**: 3 sets × 8 reps. Rest 45 sec.
-- **Tricep Dip (Floor)**: 3 sets × 10 reps. Rest 45 sec.
-- **Plank**: 3 sets × 30 seconds. Rest 30 sec.
-
-### Day 2 — Wednesday, May 06, 2026
-
-**Phase:** Week 1, Foundation
-
-**Focus:** Run
-
-**Workout details:**
-- **Easy Run**: 1 sets × 20 minutes. No rest block.
-
-### Day 3 — Thursday, May 07, 2026
-
-**Phase:** Week 1, Foundation
-
-**Focus:** Pull + Core
-
-**Workout details:**
-- **Inverted Row**: 3 sets × 8 reps. Rest 60 sec.
-- **Pull-Up**: 3 sets × 4 reps. Rest 90 sec.
-- **Hanging Knee Raise**: 3 sets × 8 reps. Rest 45 sec.
-- **Superman Hold**: 3 sets × 20 seconds. Rest 30 sec.
-
-### Day 4 — Friday, May 08, 2026
-
-**Phase:** Week 1, Foundation
-
-**Focus:** Legs + Core
-
-**Workout details:**
-- **Bodyweight Squat**: 3 sets × 20 reps. Rest 30 sec.
-- **Reverse Lunge**: 3 sets × 12 reps. Rest 45 sec.
-- **Glute Bridge**: 3 sets × 15 reps. Rest 30 sec.
-- **Mountain Climber**: 3 sets × 30 seconds. Rest 30 sec.
-
-### Day 5 — Saturday, May 09, 2026
-
-**Phase:** Week 1, Foundation
-
-**Focus:** Full Body
-
-**Workout details:**
-- **Push-Up**: 3 sets × 10 reps. Rest 30 sec.
-- **Bodyweight Squat**: 3 sets × 15 reps. Rest 30 sec.
-- **Pull-Up**: 3 sets × 4 reps. Rest 60 sec.
-- **Plank**: 3 sets × 30 seconds. Rest 30 sec.
-
-### Day 6 — Sunday, May 10, 2026
-
-**Phase:** Week 1, Foundation
-
-**Type:** Rest / Recovery
-
-**Recommended recovery work:**
-- Light walk, mobility, stretching, and hydration.
-
-### Day 7 — Monday, May 11, 2026
-
-**Phase:** Week 1, Foundation
-
-**Type:** Rest / Recovery
-
-**Recommended recovery work:**
-- Light walk, mobility, stretching, and hydration.
-
-### Day 8 — Tuesday, May 12, 2026
-
-**Phase:** Week 2, Building
-
-**Focus:** Push + Core
-
-**Workout details:**
-- **Push-Up**: 3 sets × 15 reps. Rest 45 sec.
-- **Decline Push-Up**: 3 sets × 10 reps. Rest 45 sec.
-- **Tricep Dip (Floor)**: 3 sets × 12 reps. Rest 45 sec.
+- **Push-Up**: 4 sets × 8 reps. Rest 60 sec.
+- **Pike Push-Up**: 3 sets × 6 reps. Rest 60 sec.
+- **Bulgarian Split Squat**: 3 sets × 8 reps. Rest 60 sec.
 - **Hollow Body Hold**: 3 sets × 20 seconds. Rest 30 sec.
 
-### Day 9 — Wednesday, May 13, 2026
+### Day 2 — Week 1, Foundation
 
-**Phase:** Week 2, Building
-
-**Focus:** Intervals
+**Focus:** Easy Run + Lower Accessory
 
 **Workout details:**
-- **Running Intervals**: 5 sets × 2 minutes. Rest 60 sec.
+- **Easy Run**: 1 sets × 20 min. No rest block.
+- **Reverse Lunge**: 2 sets × 10 reps. Rest 45 sec.
+- **Standing Calf Raise**: 2 sets × 20 reps. Rest 30 sec.
+- **Dead Bug**: 2 sets × 10 reps. Rest 30 sec.
 
-### Day 10 — Thursday, May 14, 2026
+### Day 3 — Week 1, Foundation
 
-**Phase:** Week 2, Building
-
-**Focus:** Pull + Core
-
-**Workout details:**
-- **Inverted Row**: 3 sets × 10 reps. Rest 60 sec.
-- **Pull-Up**: 3 sets × 5 reps. Rest 90 sec.
-- **Chin-Up**: 3 sets × 4 reps. Rest 90 sec.
-- **Hanging Knee Raise**: 3 sets × 10 reps. Rest 45 sec.
-
-### Day 11 — Friday, May 15, 2026
-
-**Phase:** Week 2, Building
-
-**Focus:** Legs + Core
+**Focus:** Home Pull + Posterior Chain + Core
 
 **Workout details:**
-- **Bodyweight Squat**: 3 sets × 25 reps. Rest 30 sec.
-- **Bulgarian Split Squat**: 3 sets × 8 reps. Rest 60 sec.
-- **Glute Bridge**: 3 sets × 20 reps. Rest 30 sec.
-- **Mountain Climber**: 3 sets × 40 seconds. Rest 30 sec.
+- **Backpack Bent-Over Row**: 4 sets × 10 reps. Rest 60 sec.
+- **One-Arm Backpack Row (each side)**: 4 sets × 8 reps. Rest 60 sec.
+- **Hamstring Walkout**: 3 sets × 6 reps. Rest 45 sec.
+- **Reverse Crunch**: 3 sets × 12 reps. Rest 45 sec.
 
-### Day 12 — Saturday, May 16, 2026
+### Day 4 — Week 1, Foundation
 
-**Phase:** Week 2, Building
-
-**Focus:** Full Body
+**Focus:** Full Body Strength
 
 **Workout details:**
-- **Push-Up**: 4 sets × 12 reps. Rest 30 sec.
-- **Reverse Lunge**: 4 sets × 10 reps. Rest 30 sec.
-- **Pull-Up**: 4 sets × 5 reps. Rest 60 sec.
-- **Plank**: 4 sets × 30 seconds. Rest 30 sec.
+- **Feet-Elevated Push-Up**: 3 sets × 8 reps. Rest 60 sec.
+- **One-Arm Backpack Row (each side)**: 4 sets × 8 reps. Rest 60 sec.
+- **Split Squat**: 3 sets × 10 reps. Rest 60 sec.
+- **Plank Shoulder Tap**: 3 sets × 16 reps. Rest 30 sec.
 
-### Day 13 — Sunday, May 17, 2026
-
-**Phase:** Week 2, Building
+### Day 5 — Week 1, Foundation
 
 **Type:** Rest / Recovery
 
 **Recommended recovery work:**
-- Light walk, mobility, stretching, and hydration.
+- **Light walk**: 15-30 min. Keep it easy and restorative.
+- **Mobility**: 8-10 min. Open shoulders, hips, ankles, and thoracic spine.
+- **Stretching**: 5-10 min. Easy breathing, no aggressive stretching.
+- **Hydration**: All day. Treat recovery like part of the plan.
 
-### Day 14 — Monday, May 18, 2026
+### Day 6 — Week 1, Foundation
 
-**Phase:** Week 2, Building
+**Focus:** Benchmark Workout
+
+**Notes:**
+
+- This replaces the normal Sunday workout so we can calibrate the plan to your real level.
+- You already completed most of the benchmark. Since the row tests are still missing, we are assuming pull is roughly on par with push for now and programming accordingly.
+- If you complete the row tests later, we can tighten the loading more precisely, but you do not need to wait for that to keep training.
+
+**Workout details:**
+- **Mobility Warm-Up**: 1 × 6 min. No rest block.
+- **Push-Up Test**: 1 × max clean reps. Rest 240 sec.
+- **Backpack Bent-Over Row Test**: 1 × max clean reps with a challenging backpack load. Rest 300 sec.
+- **One-Arm Backpack Row Test (each side)**: 1 × max clean reps each side. Rest 240 sec.
+- **Pike Push-Up Test**: 1 × max clean reps. Rest 180 sec.
+- **Bulgarian Split Squat Test**: 1 × max clean reps each leg (cap 20). Rest 90 sec.
+- **Hollow Body Hold Test**: 1 × max hold. No rest block.
+
+### Day 7 — Week 1, Foundation
 
 **Type:** Rest / Recovery
 
 **Recommended recovery work:**
-- Light walk, mobility, stretching, and hydration.
+- **Light walk**: 15-30 min. Move a little, do not turn it into training.
+- **Mobility**: 8-10 min. Focus on whatever feels tight from the week.
+- **Stretching**: 5-10 min. Stay relaxed and controlled.
+- **Hydration**: All day. Recover before the next block starts.
 
-### Day 15 — Tuesday, May 19, 2026
+### Day 8 — Week 2, Building
 
-**Phase:** Week 3, Intensity
+**Focus:** Push + Legs + Core
 
-**Focus:** Push + Core
+**Notes:**
+
+- Optional: wear the armor vest for the leg movement if it feels stable and your shoulders/low back stay happy.
 
 **Workout details:**
-- **Diamond Push-Up**: 3 sets × 10 reps. Rest 60 sec.
-- **Pike Push-Up**: 4 sets × 10 reps. Rest 45 sec.
-- **Tricep Dip (Floor)**: 4 sets × 12 reps. Rest 45 sec.
+- **Push-Up**: 4 sets × 10 reps. Rest 60 sec.
+- **Pike Push-Up**: 4 sets × 6 reps. Rest 60 sec.
+- **Bulgarian Split Squat**: 3 sets × 9 reps. Rest 60 sec.
+- **Hollow Body Hold**: 3 sets × 25 seconds. Rest 30 sec.
+
+### Day 9 — Week 2, Building
+
+**Focus:** Steady Run + Lower Accessory
+
+**Notes:**
+
+- Run without the vest. Optional: use the armor vest only for the lower-body accessory work after the run.
+
+**Workout details:**
+- **Steady Run**: 1 sets × 22 min. No rest block.
+- **Reverse Lunge**: 2 sets × 12 reps. Rest 45 sec.
+- **Standing Calf Raise**: 2 sets × 22 reps. Rest 30 sec.
+- **Dead Bug**: 2 sets × 12 reps. Rest 30 sec.
+
+### Day 10 — Week 2, Building
+
+**Focus:** Home Pull + Posterior Chain + Core
+
+**Workout details:**
+- **Backpack Bent-Over Row**: 4 sets × 12 reps. Rest 60 sec.
+- **One-Arm Backpack Row (each side)**: 4 sets × 10 reps. Rest 60 sec.
+- **Hamstring Walkout**: 3 sets × 8 reps. Rest 45 sec.
+- **Reverse Crunch**: 3 sets × 14 reps. Rest 45 sec.
+
+### Day 11 — Week 2, Building
+
+**Focus:** Full Body Strength
+
+**Notes:**
+
+- Optional: wear the armor vest for the leg movement if it feels stable and your shoulders/low back stay happy.
+
+**Workout details:**
+- **Decline Push-Up**: 3 sets × 8 reps. Rest 60 sec.
+- **One-Arm Backpack Row (each side)**: 4 sets × 9 reps. Rest 60 sec.
+- **Split Squat**: 3 sets × 12 reps. Rest 60 sec.
+- **Plank Shoulder Tap**: 3 sets × 20 reps. Rest 30 sec.
+
+### Day 12 — Week 2, Building
+
+**Type:** Rest / Recovery
+
+**Notes:**
+
+- Optional: easy 10-20 minute vest walk only if it feels comfortable and fully controlled. No jogging with it.
+
+**Recommended recovery work:**
+- **Light walk**: 15-30 min. Keep recovery low-stress and sustainable.
+- **Mobility**: 8-10 min. Shoulders, hips, spine, ankles.
+- **Stretching**: 5-10 min. Easy, no forcing range.
+- **Hydration**: All day. Support the harder week.
+
+### Day 13 — Week 2, Building
+
+**Focus:** Intervals Run + Pull/Core Accessory
+
+**Workout details:**
+- **Running Intervals**: 5 sets × 2 min. Rest 60 sec.
+- **Backpack Bent-Over Row**: 3 sets × 12 reps. Rest 45 sec.
+- **One-Arm Backpack Row (each side)**: 2 sets × 10 reps. Rest 60 sec.
+- **Side Plank**: 2 sets × 25 seconds. Rest 30 sec.
+
+### Day 14 — Week 2, Building
+
+**Type:** Rest / Recovery
+
+**Notes:**
+
+- Optional: easy 10-20 minute vest walk only if it feels comfortable and fully controlled. No jogging with it.
+
+**Recommended recovery work:**
+- **Light walk**: 15-30 min. Let fatigue come down before next week.
+- **Mobility**: 8-10 min. Pick the tightest area and be consistent.
+- **Stretching**: 5-10 min. Relax, breathe, recover.
+- **Hydration**: All day. Recovery is training too.
+
+### Day 15 — Week 3, Intensity
+
+**Focus:** Push + Legs + Core
+
+**Notes:**
+
+- Optional: wear the armor vest for the leg movement if it feels stable and your shoulders/low back stay happy.
+
+**Workout details:**
+- **Decline Push-Up**: 4 sets × 10 reps. Rest 60 sec.
+- **Pike Push-Up**: 4 sets × 7 reps. Rest 60 sec.
+- **Bulgarian Split Squat**: 4 sets × 10 reps. Rest 60 sec.
 - **Hollow Body Hold**: 4 sets × 25 seconds. Rest 30 sec.
 
-### Day 16 — Wednesday, May 20, 2026
+### Day 16 — Week 3, Intensity
 
-**Phase:** Week 3, Intensity
+**Focus:** Easy Run + Lower Accessory
 
-**Focus:** Tempo Run
+**Notes:**
 
-**Workout details:**
-- **Tempo Run**: 1 sets × 15 minutes. No rest block.
-
-### Day 17 — Thursday, May 21, 2026
-
-**Phase:** Week 3, Intensity
-
-**Focus:** Pull + Core
+- Run without the vest. Optional: use the armor vest only for the lower-body accessory work after the run.
 
 **Workout details:**
-- **Pull-Up**: 4 sets × 5 reps. Rest 90 sec.
-- **Chin-Up**: 4 sets × 6 reps. Rest 90 sec.
-- **Inverted Row**: 3 sets × 12 reps. Rest 60 sec.
-- **Hanging Knee Raise**: 4 sets × 10 reps. Rest 45 sec.
+- **Easy Run**: 1 sets × 25 min. No rest block.
+- **Reverse Lunge**: 2 sets × 12 reps. Rest 45 sec.
+- **Single-Leg Calf Raise**: 2 sets × 15 reps. Rest 30 sec.
+- **Dead Bug**: 2 sets × 12 reps. Rest 30 sec.
 
-### Day 18 — Friday, May 22, 2026
+### Day 17 — Week 3, Intensity
 
-**Phase:** Week 3, Intensity
-
-**Focus:** Legs + Core
+**Focus:** Home Pull + Posterior Chain + Core
 
 **Workout details:**
-- **Bulgarian Split Squat**: 4 sets × 10 reps. Rest 60 sec.
-- **Step-Up**: 3 sets × 15 reps. Rest 45 sec.
-- **Glute Bridge**: 4 sets × 20 reps. Rest 30 sec.
-- **Mountain Climber**: 4 sets × 40 seconds. Rest 30 sec.
+- **Backpack Bent-Over Row**: 4 sets × 12 reps. Rest 60 sec.
+- **One-Arm Backpack Row (each side)**: 4 sets × 10 reps. Rest 60 sec.
+- **Hamstring Walkout**: 3 sets × 10 reps. Rest 45 sec.
+- **Reverse Crunch**: 4 sets × 14 reps. Rest 45 sec.
 
-### Day 19 — Saturday, May 23, 2026
+### Day 18 — Week 3, Intensity
 
-**Phase:** Week 3, Intensity
+**Focus:** Full Body Strength
 
-**Focus:** Full Body
+**Notes:**
+
+- Optional: wear the armor vest for the leg movement if it feels stable and your shoulders/low back stay happy.
 
 **Workout details:**
-- **Push-Up**: 4 sets × 15 reps. Rest 30 sec.
-- **Bodyweight Squat**: 4 sets × 20 reps. Rest 30 sec.
-- **Pull-Up**: 4 sets × 5 reps. Rest 60 sec.
-- **Plank**: 4 sets × 40 seconds. Rest 30 sec.
+- **Feet-Elevated Push-Up**: 4 sets × 10 reps. Rest 60 sec.
+- **One-Arm Backpack Row (each side)**: 4 sets × 10 reps. Rest 60 sec.
+- **Split Squat**: 3 sets × 12 reps. Rest 60 sec.
+- **Mountain Climber**: 3 sets × 30 seconds. Rest 30 sec.
 
-### Day 20 — Sunday, May 24, 2026
-
-**Phase:** Week 3, Intensity
+### Day 19 — Week 3, Intensity
 
 **Type:** Rest / Recovery
 
+**Notes:**
+
+- Optional: easy 10-20 minute vest walk only if it feels comfortable and fully controlled. No jogging with it.
+
 **Recommended recovery work:**
-- Light walk, mobility, stretching, and hydration.
+- **Light walk**: 15-30 min. Keep Saturday easy and restorative.
+- **Mobility**: 8-10 min. Unwind from the heaviest week.
+- **Stretching**: 5-10 min. Stay light and calm.
+- **Hydration**: All day. Support recovery and sleep.
 
-### Day 21 — Monday, May 25, 2026
+### Day 20 — Week 3, Intensity
 
-**Phase:** Week 3, Intensity
+**Focus:** Tempo Run + Pull/Core Accessory
+
+**Workout details:**
+- **Tempo Run**: 1 sets × 18 min. No rest block.
+- **Backpack Bent-Over Row**: 3 sets × 12 reps. Rest 45 sec.
+- **One-Arm Backpack Row (each side)**: 2 sets × 10 reps. Rest 60 sec.
+- **Side Plank**: 2 sets × 25 seconds. Rest 30 sec.
+
+### Day 21 — Week 3, Intensity
 
 **Type:** Rest / Recovery
 
+**Notes:**
+
+- Optional: easy 10-20 minute vest walk only if it feels comfortable and fully controlled. No jogging with it.
+
 **Recommended recovery work:**
-- Light walk, mobility, stretching, and hydration.
+- **Light walk**: 15-30 min. Keep blood flowing, nothing more.
+- **Mobility**: 8-10 min. Shoulders, hips, ankles, spine.
+- **Stretching**: 5-10 min. Easy recovery only.
+- **Hydration**: All day. Prepare for the final week.
 
-### Day 22 — Tuesday, May 26, 2026
+### Day 22 — Week 4, Consolidation
 
-**Phase:** Week 4, Peak
+**Focus:** Push + Legs + Core
 
-**Focus:** Push + Core
+**Notes:**
 
-**Workout details:**
-- **Diamond Push-Up**: 4 sets × 12 reps. Rest 60 sec.
-- **Decline Push-Up**: 4 sets × 12 reps. Rest 60 sec.
-- **Pike Push-Up**: 4 sets × 10 reps. Rest 60 sec.
-- **Tricep Dip (Floor)**: 4 sets × 15 reps. Rest 60 sec.
-
-### Day 23 — Wednesday, May 27, 2026
-
-**Phase:** Week 4, Peak
-
-**Focus:** Steady Run
+- Optional: wear the armor vest for the leg movement if it feels stable and your shoulders/low back stay happy.
 
 **Workout details:**
-- **Steady Run**: 1 sets × 25 minutes. No rest block.
+- **Push-Up**: 3 sets × 10 reps. Rest 60 sec.
+- **Pike Push-Up**: 3 sets × 6 reps. Rest 60 sec.
+- **Bulgarian Split Squat**: 3 sets × 8 reps. Rest 60 sec.
+- **Hollow Body Hold**: 3 sets × 20 seconds. Rest 30 sec.
 
-### Day 24 — Thursday, May 28, 2026
+### Day 23 — Week 4, Consolidation
 
-**Phase:** Week 4, Peak
+**Focus:** Steady Run + Lower Accessory
 
-**Focus:** Pull + Core
+**Notes:**
 
-**Workout details:**
-- **Pull-Up**: 5 sets × 5 reps. Rest 90 sec.
-- **Chin-Up**: 5 sets × 6 reps. Rest 90 sec.
-- **Hanging Knee Raise**: 4 sets × 12 reps. Rest 45 sec.
-- **Superman Hold**: 4 sets × 30 seconds. Rest 30 sec.
-
-### Day 25 — Friday, May 29, 2026
-
-**Phase:** Week 4, Peak
-
-**Focus:** Legs + Core
+- Run without the vest. Optional: use the armor vest only for the lower-body accessory work after the run.
 
 **Workout details:**
-- **Bulgarian Split Squat**: 4 sets × 12 reps. Rest 60 sec.
-- **Step-Up**: 4 sets × 15 reps. Rest 45 sec.
-- **Glute Bridge**: 4 sets × 20 reps. Rest 30 sec.
-- **Mountain Climber**: 4 sets × 45 seconds. Rest 30 sec.
+- **Steady Run**: 1 sets × 20 min. No rest block.
+- **Reverse Lunge**: 2 sets × 10 reps. Rest 45 sec.
+- **Standing Calf Raise**: 2 sets × 20 reps. Rest 30 sec.
+- **Dead Bug**: 2 sets × 10 reps. Rest 30 sec.
 
-### Day 26 — Saturday, May 30, 2026
+### Day 24 — Week 4, Consolidation
 
-**Phase:** Week 4, Peak
-
-**Focus:** Final Mission
+**Focus:** Home Pull + Posterior Chain + Core
 
 **Workout details:**
-- **Push-Up**: 5 sets × 20 reps. Rest 60 sec.
-- **Pull-Up**: 5 sets × 8 reps. Rest 90 sec.
-- **Bodyweight Squat**: 5 sets × 25 reps. Rest 60 sec.
-- **Plank**: 5 sets × 45 seconds. Rest 45 sec.
+- **Backpack Bent-Over Row**: 3 sets × 10 reps. Rest 60 sec.
+- **One-Arm Backpack Row (each side)**: 3 sets × 9 reps. Rest 60 sec.
+- **Hamstring Walkout**: 2 sets × 8 reps. Rest 45 sec.
+- **Reverse Crunch**: 3 sets × 12 reps. Rest 45 sec.
 
-### Day 27 — Sunday, May 31, 2026
+### Day 25 — Week 4, Consolidation
 
-**Phase:** Week 4, Peak
+**Focus:** Full Body Strength
+
+**Notes:**
+
+- Optional: wear the armor vest for the leg movement if it feels stable and your shoulders/low back stay happy.
+
+**Workout details:**
+- **Decline Push-Up**: 3 sets × 8 reps. Rest 60 sec.
+- **One-Arm Backpack Row (each side)**: 3 sets × 9 reps. Rest 60 sec.
+- **Split Squat**: 2 sets × 10 reps. Rest 60 sec.
+- **Plank Shoulder Tap**: 2 sets × 16 reps. Rest 30 sec.
+
+### Day 26 — Week 4, Consolidation
 
 **Type:** Rest / Recovery
 
+**Notes:**
+
+- Optional: easy 10-20 minute vest walk only if it feels comfortable and fully controlled. No jogging with it.
+
 **Recommended recovery work:**
-- Light walk, mobility, stretching, and hydration.
+- **Light walk**: 15-30 min. Use the day for genuine recovery.
+- **Mobility**: 8-10 min. Stay loose, not tired.
+- **Stretching**: 5-10 min. Gentle, easy, sustainable.
+- **Hydration**: All day. Support the final training days.
 
-### Day 28 — Monday, June 01, 2026
+### Day 27 — Week 4, Consolidation
 
-**Phase:** Week 4, Peak
+**Focus:** Easy Run + Pull/Core Accessory
+
+**Workout details:**
+- **Easy Run**: 1 sets × 25 min. No rest block.
+- **Backpack Bent-Over Row**: 2 sets × 12 reps. Rest 45 sec.
+- **One-Arm Backpack Row (each side)**: 2 sets × 10 reps. Rest 60 sec.
+- **Side Plank**: 2 sets × 20 seconds. Rest 30 sec.
+
+### Day 28 — Week 4, Consolidation
 
 **Type:** Rest / Recovery
 
+**Notes:**
+
+- Optional: easy 10-20 minute vest walk only if it feels comfortable and fully controlled. No jogging with it.
+
 **Recommended recovery work:**
-- Light walk, mobility, stretching, and hydration.
-
-## Notes
-
-- Running days are time-based, not distance-based.
-- Pull-up numbers are written as targets. Use assistance if needed, but try to stay close to the plan.
-- The final training day is **Day 26**. Days 27-28 are recovery days that complete the 28-day cycle.
+- **Light walk**: 15-30 min. Finish the month by actually recovering.
+- **Mobility**: 8-10 min. Take stock of what feels better than week 1.
+- **Stretching**: 5-10 min. Easy recovery, no grind.
+- **Hydration**: All day. Reset before the next cycle.

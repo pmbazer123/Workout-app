@@ -37,3 +37,4 @@ prisma/*.db-journal
 
 # Bot local state
 bot-data/*.json
+bot-data/*.bak-*
