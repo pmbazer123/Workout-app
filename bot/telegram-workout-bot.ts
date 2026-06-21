@@ -150,8 +150,7 @@ const MOTIVATION = {
   ],
 }
 
-// All exercises in the plan are either bodyweight or dumbbell-based.
-// No equipment filtering is needed — dumbbells are always available.
+// All exercises in the plan are bodyweight-only. No equipment filtering needed.
 const EQUIPMENT_DEPENDENT_EXERCISE_PATTERNS: RegExp[] = []
 
 const EXERCISE_GUIDES: Record<string, ExerciseGuide> = {
@@ -269,20 +268,21 @@ const EXERCISE_GUIDES: Record<string, ExerciseGuide> = {
       'Lower slowly instead of swinging the legs',
     ],
   },
-  'dumbbell bent over row': {
-    summary: 'Hip-hinge row with two dumbbells. Trains the entire upper back, lats, and rear delts.',
+  'inverted row': {
+    summary: 'Bodyweight horizontal pull done under a table. Trains the entire upper back, lats, and rear delts with zero equipment.',
     cues: [
-      'Hinge at the hips with a flat back and soft knees, torso roughly parallel to the floor',
-      'Let the dumbbells hang, then pull elbows back toward your hips',
-      'Squeeze the upper back at the top, then lower under full control',
+      'Lie under a sturdy table, grip the edge with both hands about shoulder-width, body in one straight line',
+      'Keep the body rigid from heels to shoulders throughout — do not let hips sag',
+      'Pull your chest up to the table edge by driving elbows back, then lower fully under control',
     ],
+    note: 'Make it harder by moving your feet forward so the body is more horizontal. Easier: slide feet back so the torso is more upright.',
   },
-  'one arm dumbbell row': {
-    summary: 'Single-arm row with one dumbbell. Better range of motion than the two-arm version.',
+  'inverted row feet elevated': {
+    summary: 'A harder inverted row with feet up on a chair, making the body more horizontal and increasing the pulling load.',
     cues: [
-      'Brace one hand on a chair or bench, keep your back flat and chest open',
-      'Row the dumbbell toward your hip, not your shoulder',
-      'Fully extend the arm on the way down to get full range of motion',
+      'Place feet on a chair at roughly the same height as the table edge you are gripping',
+      'Body forms a straight line from heels to shoulders — do not let hips sag or pike',
+      'Pull chest to the table edge with a full contraction at the top, lower all the way down',
     ],
   },
   'easy run': {
