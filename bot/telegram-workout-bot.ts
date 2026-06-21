@@ -150,12 +150,9 @@ const MOTIVATION = {
   ],
 }
 
-// Only filter exercises that require a genuinely optional piece of kit (the backpack).
-// Chairs, sofas, and floors are always available — decline push-ups, feet-elevated
-// push-ups, and Bulgarian split squats do not need to be hidden.
-const EQUIPMENT_DEPENDENT_EXERCISE_PATTERNS = [
-  /backpack/i,
-]
+// All exercises in the plan are either bodyweight or dumbbell-based.
+// No equipment filtering is needed — dumbbells are always available.
+const EQUIPMENT_DEPENDENT_EXERCISE_PATTERNS: RegExp[] = []
 
 const EXERCISE_GUIDES: Record<string, ExerciseGuide> = {
   'push up': {
@@ -175,9 +172,9 @@ const EXERCISE_GUIDES: Record<string, ExerciseGuide> = {
     ],
   },
   'decline push up': {
-    summary: 'Push-up with feet elevated, similar to a lighter overhead-ish press challenge.',
+    summary: 'Push-up with feet elevated, targeting upper chest and front delts more than flat push-ups.',
     cues: [
-      'Feet elevated, hands planted under shoulders',
+      'Feet elevated on a chair or sofa, hands planted under shoulders',
       'Stay rigid from shoulders through ankles',
       'Control the descent and finish each rep fully',
     ],
@@ -191,31 +188,30 @@ const EXERCISE_GUIDES: Record<string, ExerciseGuide> = {
     ],
   },
   'bulgarian split squat': {
-    summary: 'Single-leg squat with the back foot elevated. Great for legs, balance, and glutes.',
+    summary: 'Single-leg squat with the back foot elevated. Great for quads, glutes, and balance.',
     cues: [
-      'Rear foot on a chair or step, front foot far enough forward',
+      'Rear foot on a chair or sofa, front foot far enough forward',
       'Lower straight down, back knee toward the floor',
-      'Drive through the front heel to stand, then finish all reps before switching legs',
+      'Drive through the front heel to stand, finish all reps then switch legs',
     ],
-    note: 'The armor vest is a good optional load here if it feels stable.',
+    note: 'Wear the armor vest from Week 2 onward. Bodyweight alone is too easy by then.',
   },
   'split squat': {
-    summary: 'A split-stance squat without the rear foot elevated.',
+    summary: 'A split-stance squat without the rear foot elevated. Simpler than Bulgarian, still effective.',
     cues: [
       'Take a long split stance and stay upright',
       'Lower straight down until the back knee nearly touches the floor',
       'Drive through the front heel to return to standing',
     ],
-    note: 'The armor vest is a good optional load here if it feels stable.',
+    note: 'Wear the armor vest when this feels easy at bodyweight.',
   },
   'reverse lunge': {
-    summary: 'Step one leg back into a lunge, then return to standing. Easier on the knees than forward lunges for many people.',
+    summary: 'Step one leg back into a lunge, then return to standing. Easier on the knees than forward lunges.',
     cues: [
       'Step straight back, not diagonally',
       'Keep the front foot flat and front knee controlled',
       'Push through the front heel to come back up',
     ],
-    note: 'Optional armor vest works here too if it feels controlled.',
   },
   'standing calf raise': {
     summary: 'Simple calf strength work done by rising onto the balls of your feet.',
@@ -234,15 +230,15 @@ const EXERCISE_GUIDES: Record<string, ExerciseGuide> = {
     ],
   },
   'dead bug': {
-    summary: 'Core stability drill done on your back. Great for teaching abs to brace while your limbs move.',
+    summary: 'Core stability drill done on your back. Trains the abs to brace while your limbs move.',
     cues: [
       'Lie on your back with lower back gently pressed into the floor',
-      'Move opposite arm and leg away slowly',
+      'Move opposite arm and leg away slowly and together',
       'Only go as far as you can without the lower back lifting',
     ],
   },
   'hollow body hold': {
-    summary: 'A full-core tension hold on your back. Very good for abs and body control.',
+    summary: 'A full-core tension hold on your back. One of the best abs exercises that exists.',
     cues: [
       'Press lower back into the floor first',
       'Lift shoulders slightly and extend legs out to a manageable height',
@@ -254,11 +250,11 @@ const EXERCISE_GUIDES: Record<string, ExerciseGuide> = {
     cues: [
       'Start in a strong push-up plank',
       'Tap one shoulder with the opposite hand',
-      'Keep hips as still as possible and move slowly enough to control rotation',
+      'Keep hips as still as possible — move slowly enough to control rotation',
     ],
   },
   'hamstring walkout': {
-    summary: 'Posterior-chain drill done from a glute bridge, slowly walking the feet out and back.',
+    summary: 'Posterior-chain drill from a glute bridge, slowly walking feet out and back.',
     cues: [
       'Start in a glute bridge with hips lifted',
       'Walk the feet out a little at a time while keeping hips up',
@@ -273,20 +269,20 @@ const EXERCISE_GUIDES: Record<string, ExerciseGuide> = {
       'Lower slowly instead of swinging the legs',
     ],
   },
-  'backpack bent over row': {
-    summary: 'Home pulling substitute. You hinge forward and row a loaded backpack toward your torso.',
+  'dumbbell bent over row': {
+    summary: 'Hip-hinge row with two dumbbells. Trains the entire upper back, lats, and rear delts.',
     cues: [
-      'Load the backpack with books or bottles so it feels challenging',
-      'Hinge at the hips with a flat back and soft knees',
-      'Pull elbows back toward your hips, squeeze the upper back, then lower under control',
+      'Hinge at the hips with a flat back and soft knees, torso roughly parallel to the floor',
+      'Let the dumbbells hang, then pull elbows back toward your hips',
+      'Squeeze the upper back at the top, then lower under full control',
     ],
   },
-  'one arm backpack row': {
-    summary: 'Single-arm row with a backpack, one side at a time. Great no-bar pulling substitute.',
+  'one arm dumbbell row': {
+    summary: 'Single-arm row with one dumbbell. Better range of motion than the two-arm version.',
     cues: [
-      'Brace one hand on a chair, bench, or thigh',
-      'Keep your back flat and chest open',
-      'Row the backpack toward your hip, not your shoulder',
+      'Brace one hand on a chair or bench, keep your back flat and chest open',
+      'Row the dumbbell toward your hip, not your shoulder',
+      'Fully extend the arm on the way down to get full range of motion',
     ],
   },
   'easy run': {
@@ -338,7 +334,7 @@ const EXERCISE_GUIDES: Record<string, ExerciseGuide> = {
     ],
   },
   'mountain climber': {
-    summary: 'Fast alternating knee drives from a plank position. It trains core control and conditioning.',
+    summary: 'Fast alternating knee drives from a plank position. Trains core control and conditioning.',
     cues: [
       'Start in a strong push-up plank',
       'Drive one knee in while keeping hips mostly level',
@@ -889,11 +885,7 @@ function formatWorkoutMessage(state: BotState, dayNumber = getCurrentDayNumber(s
     lines.push('')
   }
 
-  // When all exercises need a backpack, show them all rather than leaving the
-  // user with an empty or near-empty workout. Add a clear note about the equipment.
-  const filteredExercises = getDisplayExercises(day)
-  const displayExercises = filteredExercises.length > 0 ? filteredExercises : day.exercises
-  const isShowingAll = filteredExercises.length === 0 && day.exercises.length > 0
+  const displayExercises = getDisplayExercises(day)
 
   lines.push('Today\'s workout:')
   for (const exercise of displayExercises) {
@@ -904,13 +896,6 @@ function formatWorkoutMessage(state: BotState, dayNumber = getCurrentDayNumber(s
         : `${exercise.sets} × ${formatDuration(exercise.durationSeconds)}`
     const rest = exercise.restSeconds > 0 ? `, rest ${exercise.restSeconds} sec` : ''
     lines.push(`- ${exercise.name}: ${work}${rest}`)
-  }
-  if (isShowingAll) {
-    lines.push('')
-    lines.push('Note: This session uses a loaded backpack. All exercises are shown.')
-  } else if (filteredExercises.length !== day.exercises.length) {
-    lines.push('')
-    lines.push('Note: I am only showing the equipment-free exercises for today.')
   }
   lines.push('')
   lines.push('Use the buttons below or reply with: done, rest, skip, undo, status, swap, explain')
@@ -979,13 +964,9 @@ function formatExplainMessage(state: BotState, queryArgs: string[] = []) {
 
   const query = queryArgs.join(' ').trim()
   const queryNorm = normalizeExerciseLookup(query)
-  // Fall back to the full exercise list when equipment filtering removes everything
-  // (e.g. pull days that are 100% backpack-based).
-  const filteredForDisplay = getDisplayExercises(day)
-  const visibleExercises = filteredForDisplay.length > 0 ? filteredForDisplay : day.exercises
   const exercises = !queryNorm
-    ? visibleExercises
-    : visibleExercises.filter((exercise) => normalizeExerciseLookup(exercise.name).includes(queryNorm))
+    ? day.exercises
+    : day.exercises.filter((exercise) => normalizeExerciseLookup(exercise.name).includes(queryNorm))
 
   if (!exercises.length) {
     return [
