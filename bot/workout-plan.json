@@ -82,19 +82,19 @@
     {
       "dayNumber": 3,
       "phase": "Week 1, Foundation",
-      "focus": "Home Pull + Posterior Chain + Core",
+      "focus": "Pull + Posterior Chain + Core",
       "isRestDay": false,
       "activities": [],
       "exercises": [
         {
-          "name": "Backpack Bent-Over Row",
+          "name": "Dumbbell Bent-Over Row",
           "sets": 4,
           "reps": 10,
           "durationSeconds": null,
           "restSeconds": 60
         },
         {
-          "name": "One-Arm Backpack Row (each side)",
+          "name": "One-Arm Dumbbell Row (each side)",
           "sets": 4,
           "reps": 8,
           "durationSeconds": null,
@@ -116,8 +116,8 @@
         }
       ],
       "notes": [
-        "Load the backpack until the rows feel genuinely hard by rep 8. Books, bottles, whatever adds weight.",
-        "Add load week over week rather than just chasing more reps."
+        "Use 20kg dumbbells. Both rows should feel genuinely hard by the last 2 reps.",
+        "If 20kg is too easy on the one-arm row, increase load. If it is too heavy, drop to 15kg and build up."
       ]
     },
     {
@@ -135,7 +135,7 @@
           "restSeconds": 60
         },
         {
-          "name": "One-Arm Backpack Row (each side)",
+          "name": "One-Arm Dumbbell Row (each side)",
           "sets": 4,
           "reps": 8,
           "durationSeconds": null,
@@ -210,20 +210,20 @@
           "workLabel": "1 × max clean reps"
         },
         {
-          "name": "Backpack Bent-Over Row Test",
+          "name": "Dumbbell Bent-Over Row Test",
           "sets": 1,
           "reps": null,
           "durationSeconds": null,
           "restSeconds": 300,
-          "workLabel": "1 × max clean reps with a challenging backpack load"
+          "workLabel": "1 × max clean reps at 20kg"
         },
         {
-          "name": "One-Arm Backpack Row Test (each side)",
+          "name": "One-Arm Dumbbell Row Test (each side)",
           "sets": 1,
           "reps": null,
           "durationSeconds": null,
           "restSeconds": 240,
-          "workLabel": "1 × max clean reps each side"
+          "workLabel": "1 × max clean reps each side at 20kg"
         },
         {
           "name": "Pike Push-Up Test",
@@ -252,9 +252,9 @@
       ],
       "notes": [
         "This is a calibration day. Do each test at maximum clean effort and record your scores.",
-        "For the row tests, load the backpack until it is genuinely challenging. Books, bottles, or anything heavy.",
+        "For the row tests, use 20kg dumbbells. If that feels too light, note it and go heavier next time.",
         "Rest fully between tests. The numbers you hit today set the loading for the rest of the plan.",
-        "If you have already completed this benchmark in a previous cycle, skip to the row tests only and record those numbers."
+        "If you have already completed this benchmark in a previous cycle, do the row tests only and record those numbers."
       ]
     },
     {
@@ -369,19 +369,19 @@
     {
       "dayNumber": 10,
       "phase": "Week 2, Building",
-      "focus": "Home Pull + Posterior Chain + Core",
+      "focus": "Pull + Posterior Chain + Core",
       "isRestDay": false,
       "activities": [],
       "exercises": [
         {
-          "name": "Backpack Bent-Over Row",
+          "name": "Dumbbell Bent-Over Row",
           "sets": 4,
           "reps": 12,
           "durationSeconds": null,
           "restSeconds": 60
         },
         {
-          "name": "One-Arm Backpack Row (each side)",
+          "name": "One-Arm Dumbbell Row (each side)",
           "sets": 4,
           "reps": 10,
           "durationSeconds": null,
@@ -418,7 +418,7 @@
           "restSeconds": 60
         },
         {
-          "name": "One-Arm Backpack Row (each side)",
+          "name": "One-Arm Dumbbell Row (each side)",
           "sets": 4,
           "reps": 9,
           "durationSeconds": null,
@@ -490,14 +490,14 @@
           "restSeconds": 60
         },
         {
-          "name": "Backpack Bent-Over Row",
+          "name": "Dumbbell Bent-Over Row",
           "sets": 3,
           "reps": 12,
           "durationSeconds": null,
           "restSeconds": 45
         },
         {
-          "name": "One-Arm Backpack Row (each side)",
+          "name": "One-Arm Dumbbell Row (each side)",
           "sets": 2,
           "reps": 10,
           "durationSeconds": null,
@@ -627,19 +627,19 @@
     {
       "dayNumber": 17,
       "phase": "Week 3, Intensity",
-      "focus": "Home Pull + Posterior Chain + Core",
+      "focus": "Pull + Posterior Chain + Core",
       "isRestDay": false,
       "activities": [],
       "exercises": [
         {
-          "name": "Backpack Bent-Over Row",
+          "name": "Dumbbell Bent-Over Row",
           "sets": 4,
           "reps": 12,
           "durationSeconds": null,
           "restSeconds": 60
         },
         {
-          "name": "One-Arm Backpack Row (each side)",
+          "name": "One-Arm Dumbbell Row (each side)",
           "sets": 4,
           "reps": 10,
           "durationSeconds": null,
@@ -676,7 +676,7 @@
           "restSeconds": 60
         },
         {
-          "name": "One-Arm Backpack Row (each side)",
+          "name": "One-Arm Dumbbell Row (each side)",
           "sets": 4,
           "reps": 10,
           "durationSeconds": null,
@@ -748,14 +748,14 @@
           "restSeconds": 0
         },
         {
-          "name": "Backpack Bent-Over Row",
+          "name": "Dumbbell Bent-Over Row",
           "sets": 3,
           "reps": 12,
           "durationSeconds": null,
           "restSeconds": 45
         },
         {
-          "name": "One-Arm Backpack Row (each side)",
+          "name": "One-Arm Dumbbell Row (each side)",
           "sets": 2,
           "reps": 10,
           "durationSeconds": null,
@@ -885,19 +885,19 @@
     {
       "dayNumber": 24,
       "phase": "Week 4, Consolidation",
-      "focus": "Home Pull + Posterior Chain + Core",
+      "focus": "Pull + Posterior Chain + Core",
       "isRestDay": false,
       "activities": [],
       "exercises": [
         {
-          "name": "Backpack Bent-Over Row",
+          "name": "Dumbbell Bent-Over Row",
           "sets": 3,
           "reps": 12,
           "durationSeconds": null,
           "restSeconds": 60
         },
         {
-          "name": "One-Arm Backpack Row (each side)",
+          "name": "One-Arm Dumbbell Row (each side)",
           "sets": 3,
           "reps": 10,
           "durationSeconds": null,
@@ -934,7 +934,7 @@
           "restSeconds": 60
         },
         {
-          "name": "One-Arm Backpack Row (each side)",
+          "name": "One-Arm Dumbbell Row (each side)",
           "sets": 3,
           "reps": 10,
           "durationSeconds": null,
@@ -1006,14 +1006,14 @@
           "restSeconds": 0
         },
         {
-          "name": "Backpack Bent-Over Row",
+          "name": "Dumbbell Bent-Over Row",
           "sets": 2,
           "reps": 12,
           "durationSeconds": null,
           "restSeconds": 45
         },
         {
-          "name": "One-Arm Backpack Row (each side)",
+          "name": "One-Arm Dumbbell Row (each side)",
           "sets": 2,
           "reps": 10,
           "durationSeconds": null,
