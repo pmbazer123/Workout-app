@@ -81,7 +81,7 @@ type TelegramUpdate = {
 }
 
 type ParsedCommand = {
-  name: 'start' | 'help' | 'today' | 'next' | 'done' | 'status' | 'swap' | 'move' | 'skip' | 'undo' | 'rest' | 'explain'
+  name: 'start' | 'help' | 'today' | 'next' | 'done' | 'status' | 'swap' | 'move' | 'skip' | 'undo' | 'rest' | 'explain' | 'restart'
   args: string[]
 }
 
@@ -150,12 +150,8 @@ const MOTIVATION = {
   ],
 }
 
-const EQUIPMENT_DEPENDENT_EXERCISE_PATTERNS = [
-  /backpack/i,
-  /feet-elevated/i,
-  /decline push-up/i,
-  /bulgarian split squat/i,
-]
+// All exercises in the plan are bodyweight-only. No equipment filtering needed.
+const EQUIPMENT_DEPENDENT_EXERCISE_PATTERNS: RegExp[] = []
 
 const EXERCISE_GUIDES: Record<string, ExerciseGuide> = {
   'push up': {
@@ -175,9 +171,9 @@ const EXERCISE_GUIDES: Record<string, ExerciseGuide> = {
     ],
   },
   'decline push up': {
-    summary: 'Push-up with feet elevated, similar to a lighter overhead-ish press challenge.',
+    summary: 'Push-up with feet elevated, targeting upper chest and front delts more than flat push-ups.',
     cues: [
-      'Feet elevated, hands planted under shoulders',
+      'Feet elevated on a chair or sofa, hands planted under shoulders',
       'Stay rigid from shoulders through ankles',
       'Control the descent and finish each rep fully',
     ],
@@ -191,31 +187,30 @@ const EXERCISE_GUIDES: Record<string, ExerciseGuide> = {
     ],
   },
   'bulgarian split squat': {
-    summary: 'Single-leg squat with the back foot elevated. Great for legs, balance, and glutes.',
+    summary: 'Single-leg squat with the back foot elevated. Great for quads, glutes, and balance.',
     cues: [
-      'Rear foot on a chair or step, front foot far enough forward',
+      'Rear foot on a chair or sofa, front foot far enough forward',
       'Lower straight down, back knee toward the floor',
-      'Drive through the front heel to stand, then finish all reps before switching legs',
+      'Drive through the front heel to stand, finish all reps then switch legs',
     ],
-    note: 'The armor vest is a good optional load here if it feels stable.',
+    note: 'Wear the armor vest from Week 2 onward. Bodyweight alone is too easy by then.',
   },
   'split squat': {
-    summary: 'A split-stance squat without the rear foot elevated.',
+    summary: 'A split-stance squat without the rear foot elevated. Simpler than Bulgarian, still effective.',
     cues: [
       'Take a long split stance and stay upright',
       'Lower straight down until the back knee nearly touches the floor',
       'Drive through the front heel to return to standing',
     ],
-    note: 'The armor vest is a good optional load here if it feels stable.',
+    note: 'Wear the armor vest when this feels easy at bodyweight.',
   },
   'reverse lunge': {
-    summary: 'Step one leg back into a lunge, then return to standing. Easier on the knees than forward lunges for many people.',
+    summary: 'Step one leg back into a lunge, then return to standing. Easier on the knees than forward lunges.',
     cues: [
       'Step straight back, not diagonally',
       'Keep the front foot flat and front knee controlled',
       'Push through the front heel to come back up',
     ],
-    note: 'Optional armor vest works here too if it feels controlled.',
   },
   'standing calf raise': {
     summary: 'Simple calf strength work done by rising onto the balls of your feet.',
@@ -234,15 +229,15 @@ const EXERCISE_GUIDES: Record<string, ExerciseGuide> = {
     ],
   },
   'dead bug': {
-    summary: 'Core stability drill done on your back. Great for teaching abs to brace while your limbs move.',
+    summary: 'Core stability drill done on your back. Trains the abs to brace while your limbs move.',
     cues: [
       'Lie on your back with lower back gently pressed into the floor',
-      'Move opposite arm and leg away slowly',
+      'Move opposite arm and leg away slowly and together',
       'Only go as far as you can without the lower back lifting',
     ],
   },
   'hollow body hold': {
-    summary: 'A full-core tension hold on your back. Very good for abs and body control.',
+    summary: 'A full-core tension hold on your back. One of the best abs exercises that exists.',
     cues: [
       'Press lower back into the floor first',
       'Lift shoulders slightly and extend legs out to a manageable height',
@@ -254,11 +249,11 @@ const EXERCISE_GUIDES: Record<string, ExerciseGuide> = {
     cues: [
       'Start in a strong push-up plank',
       'Tap one shoulder with the opposite hand',
-      'Keep hips as still as possible and move slowly enough to control rotation',
+      'Keep hips as still as possible — move slowly enough to control rotation',
     ],
   },
   'hamstring walkout': {
-    summary: 'Posterior-chain drill done from a glute bridge, slowly walking the feet out and back.',
+    summary: 'Posterior-chain drill from a glute bridge, slowly walking feet out and back.',
     cues: [
       'Start in a glute bridge with hips lifted',
       'Walk the feet out a little at a time while keeping hips up',
@@ -273,21 +268,23 @@ const EXERCISE_GUIDES: Record<string, ExerciseGuide> = {
       'Lower slowly instead of swinging the legs',
     ],
   },
-  'backpack bent over row': {
-    summary: 'Home pulling substitute. You hinge forward and row a loaded backpack toward your torso.',
+  'inverted row': {
+    summary: 'Bodyweight horizontal pull done under a table. Trains the entire upper back, lats, and rear delts with zero equipment.',
     cues: [
-      'Load the backpack with books or bottles so it feels challenging',
-      'Hinge at the hips with a flat back and soft knees',
-      'Pull elbows back toward your hips, squeeze the upper back, then lower under control',
+      'Lie under a sturdy table, grip the edge with both hands about shoulder-width, body in one straight line',
+      'Keep the body rigid from heels to shoulders throughout — do not let hips sag',
+      'Pull your chest up to the table edge by driving elbows back, then lower fully under control',
     ],
+    note: 'Make it harder by moving your feet forward so the body is more horizontal. Easier: slide feet back so the torso is more upright.',
   },
-  'one arm backpack row': {
-    summary: 'Single-arm row with a backpack, one side at a time. Great no-bar pulling substitute.',
+  'superman hold': {
+    summary: 'Prone back extension that trains rear delts, rhomboids, and lower back. A true bodyweight posterior chain exercise.',
     cues: [
-      'Brace one hand on a chair, bench, or thigh',
-      'Keep your back flat and chest open',
-      'Row the backpack toward your hip, not your shoulder',
+      'Lie face-down on the floor, arms extended overhead',
+      'Lift your chest, arms, and legs off the floor simultaneously',
+      'Squeeze shoulder blades together and hold 2 seconds at the top, then lower with control',
     ],
+    note: 'Focus on squeezing hard at the top rather than getting maximum height. Tension matters more than range.',
   },
   'easy run': {
     summary: 'A conversational pace run. You should be able to speak in full sentences.',
@@ -338,7 +335,7 @@ const EXERCISE_GUIDES: Record<string, ExerciseGuide> = {
     ],
   },
   'mountain climber': {
-    summary: 'Fast alternating knee drives from a plank position. It trains core control and conditioning.',
+    summary: 'Fast alternating knee drives from a plank position. Trains core control and conditioning.',
     cues: [
       'Start in a strong push-up plank',
       'Drive one knee in while keeping hips mostly level',
@@ -872,7 +869,7 @@ function formatWorkoutMessage(state: BotState, dayNumber = getCurrentDayNumber(s
   if (day.isRestDay) {
     lines.push('Recovery day.')
     for (const activity of day.activities) {
-      lines.push(`- ${activity.title} (${activity.duration})`) 
+      lines.push(`- ${activity.title} (${activity.duration})`)
     }
     lines.push('')
     lines.push('Rest days advance automatically. No need to send done.')
@@ -900,10 +897,6 @@ function formatWorkoutMessage(state: BotState, dayNumber = getCurrentDayNumber(s
         : `${exercise.sets} × ${formatDuration(exercise.durationSeconds)}`
     const rest = exercise.restSeconds > 0 ? `, rest ${exercise.restSeconds} sec` : ''
     lines.push(`- ${exercise.name}: ${work}${rest}`)
-  }
-  if (displayExercises.length !== day.exercises.length) {
-    lines.push('')
-    lines.push('Note: I am only showing the equipment-free version of today\'s strength work.')
   }
   lines.push('')
   lines.push('Use the buttons below or reply with: done, rest, skip, undo, status, swap, explain')
@@ -972,14 +965,13 @@ function formatExplainMessage(state: BotState, queryArgs: string[] = []) {
 
   const query = queryArgs.join(' ').trim()
   const queryNorm = normalizeExerciseLookup(query)
-  const visibleExercises = getDisplayExercises(day)
   const exercises = !queryNorm
-    ? visibleExercises
-    : visibleExercises.filter((exercise) => normalizeExerciseLookup(exercise.name).includes(queryNorm))
+    ? day.exercises
+    : day.exercises.filter((exercise) => normalizeExerciseLookup(exercise.name).includes(queryNorm))
 
   if (!exercises.length) {
     return [
-      `I could not find "${query}" in today\'s equipment-free workout.`,
+      `I could not find "${query}" in today\'s workout.`,
       'Try just: explain',
       'Or use part of a name, for example: explain plank',
     ].join('\n')
@@ -1205,6 +1197,32 @@ function formatSwapMessage(state: BotState, newTodayDayNumber: number, newTomorr
   ].join('\n')
 }
 
+function formatRestartConfirmMessage() {
+  return [
+    '⚠️ Reset cycle to Day 1?',
+    '',
+    'This will:',
+    '- Return you to Day 1 with today as the new start date',
+    '- Clear all completed, skipped, and chosen-rest history',
+    '- Keep your reminder settings unchanged',
+    '',
+    'Training history will be wiped. This cannot be undone.',
+    '',
+    'If this was a misclick, tap Cancel.',
+  ].join('\n')
+}
+
+function formatRestartMessage(today: string) {
+  return [
+    '🔄 Cycle reset to Day 1.',
+    '',
+    `New start date: ${today}`,
+    'History cleared. Reminder settings unchanged.',
+    '',
+    'Send today to see your Day 1 workout.',
+  ].join('\n')
+}
+
 async function startPollingLoop() {
   let offset = 0
   while (true) {
@@ -1316,6 +1334,7 @@ async function executeCommand(chatId: string, command: ParsedCommand, replyTarge
         '- swap (switch today and tomorrow)',
         '- explain (show drill explanations for today)',
         '- explain row (show one drill only)',
+        '- restart (reset the 28-day cycle to Day 1)',
         '- help',
         '',
         'Use the inline buttons if you do not want to type.',
@@ -1470,6 +1489,42 @@ async function executeCommand(chatId: string, command: ParsedCommand, replyTarge
       break
     }
 
+    case 'restart': {
+      const mode = command.args[0] ?? 'prompt'
+
+      if (mode === 'cancel') {
+        await respond(chatId, 'Restart canceled. Current cycle continues as normal.', replyTarget)
+        break
+      }
+
+      if (mode !== 'confirm') {
+        await respond(chatId, formatRestartConfirmMessage(), replyTarget, {
+          replyMarkup: buildRestartConfirmKeyboard(),
+        })
+        break
+      }
+
+      const today = currentDateInZone(state.reminder.timeZone)
+      const prevReminder = { ...state.reminder, lastSentOn: null }
+      const prevChatId = state.chatId ?? chatId
+
+      state.version = 5
+      state.startDate = today
+      state.currentDay = 1
+      state.dayQueue = buildDefaultDayQueue(1)
+      state.manualRestDates = []
+      state.completedWorkoutDays = []
+      state.skippedWorkoutDays = []
+      state.resolutionHistory = []
+      state.undoState = null
+      state.lastCompletedAt = null
+      state.chatId = prevChatId
+      state.reminder = prevReminder
+
+      await respond(chatId, formatRestartMessage(today), replyTarget)
+      break
+    }
+
     default:
       await respond(chatId, 'Try: today, explain, done, rest, skip, undo, status, swap, help', replyTarget)
       break
@@ -1483,7 +1538,7 @@ function parseCommand(text: string): ParsedCommand | null {
   if (!cleaned) return null
   const parts = cleaned.split(/\s+/).filter(Boolean)
   const first = parts[0]
-  if (['start', 'help', 'today', 'next', 'done', 'status', 'swap', 'move', 'skip', 'undo', 'rest', 'explain'].includes(first)) {
+  if (['start', 'help', 'today', 'next', 'done', 'status', 'swap', 'move', 'skip', 'undo', 'rest', 'explain', 'restart'].includes(first)) {
     return {
       name: first as ParsedCommand['name'],
       args: parts.slice(1),
@@ -1541,6 +1596,17 @@ function buildRestConfirmKeyboard() {
       ],
       [
         { text: '📊 Status', callback_data: 'status' },
+      ],
+    ],
+  }
+}
+
+function buildRestartConfirmKeyboard() {
+  return {
+    inline_keyboard: [
+      [
+        { text: '🔄 Yes, reset to Day 1', callback_data: 'restart confirm' },
+        { text: '❌ Cancel', callback_data: 'restart cancel' },
       ],
     ],
   }
