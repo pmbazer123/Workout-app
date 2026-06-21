@@ -87,14 +87,14 @@
       "activities": [],
       "exercises": [
         {
-          "name": "Dumbbell Bent-Over Row",
+          "name": "Inverted Row",
           "sets": 4,
           "reps": 10,
           "durationSeconds": null,
           "restSeconds": 60
         },
         {
-          "name": "One-Arm Dumbbell Row (each side)",
+          "name": "Inverted Row (feet elevated)",
           "sets": 4,
           "reps": 8,
           "durationSeconds": null,
@@ -116,8 +116,8 @@
         }
       ],
       "notes": [
-        "Use 20kg dumbbells. Both rows should feel genuinely hard by the last 2 reps.",
-        "If 20kg is too easy on the one-arm row, increase load. If it is too heavy, drop to 15kg and build up."
+        "Find a sturdy dining table. For the Inverted Row: lie under it, grip the edge, keep body straight, pull your chest up to the table.",
+        "For the feet-elevated variation: put your feet on a chair so your body is more horizontal. This increases the load significantly."
       ]
     },
     {
@@ -135,7 +135,7 @@
           "restSeconds": 60
         },
         {
-          "name": "One-Arm Dumbbell Row (each side)",
+          "name": "Inverted Row (feet elevated)",
           "sets": 4,
           "reps": 8,
           "durationSeconds": null,
@@ -210,20 +210,20 @@
           "workLabel": "1 × max clean reps"
         },
         {
-          "name": "Dumbbell Bent-Over Row Test",
+          "name": "Inverted Row Test",
           "sets": 1,
           "reps": null,
           "durationSeconds": null,
           "restSeconds": 300,
-          "workLabel": "1 × max clean reps at 20kg"
+          "workLabel": "1 × max clean reps"
         },
         {
-          "name": "One-Arm Dumbbell Row Test (each side)",
+          "name": "Inverted Row Test (feet elevated)",
           "sets": 1,
           "reps": null,
           "durationSeconds": null,
           "restSeconds": 240,
-          "workLabel": "1 × max clean reps each side at 20kg"
+          "workLabel": "1 × max clean reps"
         },
         {
           "name": "Pike Push-Up Test",
@@ -252,7 +252,7 @@
       ],
       "notes": [
         "This is a calibration day. Do each test at maximum clean effort and record your scores.",
-        "For the row tests, use 20kg dumbbells. If that feels too light, note it and go heavier next time.",
+        "For the row tests, use the table inverted row setup. Standard: feet on floor. Elevated: feet on a chair.",
         "Rest fully between tests. The numbers you hit today set the loading for the rest of the plan.",
         "If you have already completed this benchmark in a previous cycle, do the row tests only and record those numbers."
       ]
@@ -374,14 +374,14 @@
       "activities": [],
       "exercises": [
         {
-          "name": "Dumbbell Bent-Over Row",
+          "name": "Inverted Row",
           "sets": 4,
           "reps": 12,
           "durationSeconds": null,
           "restSeconds": 60
         },
         {
-          "name": "One-Arm Dumbbell Row (each side)",
+          "name": "Inverted Row (feet elevated)",
           "sets": 4,
           "reps": 10,
           "durationSeconds": null,
@@ -418,7 +418,7 @@
           "restSeconds": 60
         },
         {
-          "name": "One-Arm Dumbbell Row (each side)",
+          "name": "Inverted Row (feet elevated)",
           "sets": 4,
           "reps": 9,
           "durationSeconds": null,
@@ -490,14 +490,14 @@
           "restSeconds": 60
         },
         {
-          "name": "Dumbbell Bent-Over Row",
+          "name": "Inverted Row",
           "sets": 3,
           "reps": 12,
           "durationSeconds": null,
           "restSeconds": 45
         },
         {
-          "name": "One-Arm Dumbbell Row (each side)",
+          "name": "Inverted Row (feet elevated)",
           "sets": 2,
           "reps": 10,
           "durationSeconds": null,
@@ -632,14 +632,14 @@
       "activities": [],
       "exercises": [
         {
-          "name": "Dumbbell Bent-Over Row",
+          "name": "Inverted Row",
           "sets": 4,
           "reps": 12,
           "durationSeconds": null,
           "restSeconds": 60
         },
         {
-          "name": "One-Arm Dumbbell Row (each side)",
+          "name": "Inverted Row (feet elevated)",
           "sets": 4,
           "reps": 10,
           "durationSeconds": null,
@@ -676,7 +676,7 @@
           "restSeconds": 60
         },
         {
-          "name": "One-Arm Dumbbell Row (each side)",
+          "name": "Inverted Row (feet elevated)",
           "sets": 4,
           "reps": 10,
           "durationSeconds": null,
@@ -748,14 +748,14 @@
           "restSeconds": 0
         },
         {
-          "name": "Dumbbell Bent-Over Row",
+          "name": "Inverted Row",
           "sets": 3,
           "reps": 12,
           "durationSeconds": null,
           "restSeconds": 45
         },
         {
-          "name": "One-Arm Dumbbell Row (each side)",
+          "name": "Inverted Row (feet elevated)",
           "sets": 2,
           "reps": 10,
           "durationSeconds": null,
@@ -890,14 +890,14 @@
       "activities": [],
       "exercises": [
         {
-          "name": "Dumbbell Bent-Over Row",
+          "name": "Inverted Row",
           "sets": 3,
           "reps": 12,
           "durationSeconds": null,
           "restSeconds": 60
         },
         {
-          "name": "One-Arm Dumbbell Row (each side)",
+          "name": "Inverted Row (feet elevated)",
           "sets": 3,
           "reps": 10,
           "durationSeconds": null,
@@ -934,7 +934,7 @@
           "restSeconds": 60
         },
         {
-          "name": "One-Arm Dumbbell Row (each side)",
+          "name": "Inverted Row (feet elevated)",
           "sets": 3,
           "reps": 10,
           "durationSeconds": null,
@@ -1006,14 +1006,14 @@
           "restSeconds": 0
         },
         {
-          "name": "Dumbbell Bent-Over Row",
+          "name": "Inverted Row",
           "sets": 2,
           "reps": 12,
           "durationSeconds": null,
           "restSeconds": 45
         },
         {
-          "name": "One-Arm Dumbbell Row (each side)",
+          "name": "Inverted Row (feet elevated)",
           "sets": 2,
           "reps": 10,
           "durationSeconds": null,
