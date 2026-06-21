@@ -8,34 +8,10 @@
       "isRestDay": false,
       "activities": [],
       "exercises": [
-        {
-          "name": "Push-Up",
-          "sets": 4,
-          "reps": 12,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Pike Push-Up",
-          "sets": 3,
-          "reps": 10,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Bulgarian Split Squat",
-          "sets": 3,
-          "reps": 10,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Hollow Body Hold",
-          "sets": 3,
-          "reps": null,
-          "durationSeconds": 40,
-          "restSeconds": 30
-        }
+        {"name": "Push-Up", "sets": 4, "reps": 12, "durationSeconds": null, "restSeconds": 60},
+        {"name": "Pike Push-Up", "sets": 3, "reps": 10, "durationSeconds": null, "restSeconds": 60},
+        {"name": "Bulgarian Split Squat", "sets": 3, "reps": 10, "durationSeconds": null, "restSeconds": 60},
+        {"name": "Hollow Body Hold", "sets": 3, "reps": null, "durationSeconds": 40, "restSeconds": 30}
       ],
       "notes": [
         "Push-Up and Pike numbers are calibrated to your benchmark scores. Stop 1-2 reps before form breaks down.",
@@ -49,34 +25,10 @@
       "isRestDay": false,
       "activities": [],
       "exercises": [
-        {
-          "name": "Easy Run",
-          "sets": 1,
-          "reps": null,
-          "durationSeconds": 1200,
-          "restSeconds": 0
-        },
-        {
-          "name": "Reverse Lunge",
-          "sets": 2,
-          "reps": 10,
-          "durationSeconds": null,
-          "restSeconds": 45
-        },
-        {
-          "name": "Standing Calf Raise",
-          "sets": 2,
-          "reps": 20,
-          "durationSeconds": null,
-          "restSeconds": 30
-        },
-        {
-          "name": "Dead Bug",
-          "sets": 2,
-          "reps": 10,
-          "durationSeconds": null,
-          "restSeconds": 30
-        }
+        {"name": "Easy Run", "sets": 1, "reps": null, "durationSeconds": 1200, "restSeconds": 0},
+        {"name": "Reverse Lunge", "sets": 2, "reps": 10, "durationSeconds": null, "restSeconds": 45},
+        {"name": "Standing Calf Raise", "sets": 2, "reps": 20, "durationSeconds": null, "restSeconds": 30},
+        {"name": "Dead Bug", "sets": 2, "reps": 10, "durationSeconds": null, "restSeconds": 30}
       ]
     },
     {
@@ -86,38 +38,14 @@
       "isRestDay": false,
       "activities": [],
       "exercises": [
-        {
-          "name": "Inverted Row",
-          "sets": 4,
-          "reps": 10,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Inverted Row (feet elevated)",
-          "sets": 4,
-          "reps": 8,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Hamstring Walkout",
-          "sets": 3,
-          "reps": 6,
-          "durationSeconds": null,
-          "restSeconds": 45
-        },
-        {
-          "name": "Reverse Crunch",
-          "sets": 3,
-          "reps": 12,
-          "durationSeconds": null,
-          "restSeconds": 45
-        }
+        {"name": "Inverted Row", "sets": 4, "reps": 10, "durationSeconds": null, "restSeconds": 60},
+        {"name": "Superman Hold", "sets": 3, "reps": 10, "durationSeconds": null, "restSeconds": 30},
+        {"name": "Hamstring Walkout", "sets": 3, "reps": 6, "durationSeconds": null, "restSeconds": 45},
+        {"name": "Reverse Crunch", "sets": 3, "reps": 12, "durationSeconds": null, "restSeconds": 45}
       ],
       "notes": [
-        "Find a sturdy dining table. For the Inverted Row: lie under it, grip the edge, keep body straight, pull your chest up to the table.",
-        "For the feet-elevated variation: put your feet on a chair so your body is more horizontal. This increases the load significantly."
+        "Inverted Row: find a sturdy table, lie under it, grip the edge, keep body in one straight line, pull your chest up to the table.",
+        "Superman Hold: lie face-down, arms overhead. Lift chest and arms, squeeze shoulder blades together for 2 seconds, lower with control."
       ]
     },
     {
@@ -127,34 +55,10 @@
       "isRestDay": false,
       "activities": [],
       "exercises": [
-        {
-          "name": "Feet-Elevated Push-Up",
-          "sets": 3,
-          "reps": 10,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Inverted Row (feet elevated)",
-          "sets": 4,
-          "reps": 8,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Split Squat",
-          "sets": 3,
-          "reps": 10,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Plank Shoulder Tap",
-          "sets": 3,
-          "reps": 16,
-          "durationSeconds": null,
-          "restSeconds": 30
-        }
+        {"name": "Feet-Elevated Push-Up", "sets": 3, "reps": 10, "durationSeconds": null, "restSeconds": 60},
+        {"name": "Superman Hold", "sets": 3, "reps": 10, "durationSeconds": null, "restSeconds": 30},
+        {"name": "Split Squat", "sets": 3, "reps": 10, "durationSeconds": null, "restSeconds": 60},
+        {"name": "Plank Shoulder Tap", "sets": 3, "reps": 16, "durationSeconds": null, "restSeconds": 30}
       ]
     },
     {
@@ -163,26 +67,10 @@
       "focus": "Rest / Recovery",
       "isRestDay": true,
       "activities": [
-        {
-          "title": "Light walk",
-          "duration": "15-30 min",
-          "description": "Keep it easy and restorative."
-        },
-        {
-          "title": "Mobility",
-          "duration": "8-10 min",
-          "description": "Open shoulders, hips, ankles, and thoracic spine."
-        },
-        {
-          "title": "Stretching",
-          "duration": "5-10 min",
-          "description": "Easy breathing, no aggressive stretching."
-        },
-        {
-          "title": "Hydration",
-          "duration": "All day",
-          "description": "Treat recovery like part of the plan."
-        }
+        {"title": "Light walk", "duration": "15-30 min", "description": "Keep it easy and restorative."},
+        {"title": "Mobility", "duration": "8-10 min", "description": "Open shoulders, hips, ankles, and thoracic spine."},
+        {"title": "Stretching", "duration": "5-10 min", "description": "Easy breathing, no aggressive stretching."},
+        {"title": "Hydration", "duration": "All day", "description": "Treat recovery like part of the plan."}
       ],
       "exercises": []
     },
@@ -193,68 +81,20 @@
       "isRestDay": false,
       "activities": [],
       "exercises": [
-        {
-          "name": "Mobility Warm-Up",
-          "sets": 1,
-          "reps": null,
-          "durationSeconds": 360,
-          "restSeconds": 0,
-          "workLabel": "1 × 6 min"
-        },
-        {
-          "name": "Push-Up Test",
-          "sets": 1,
-          "reps": null,
-          "durationSeconds": null,
-          "restSeconds": 240,
-          "workLabel": "1 × max clean reps"
-        },
-        {
-          "name": "Inverted Row Test",
-          "sets": 1,
-          "reps": null,
-          "durationSeconds": null,
-          "restSeconds": 300,
-          "workLabel": "1 × max clean reps"
-        },
-        {
-          "name": "Inverted Row Test (feet elevated)",
-          "sets": 1,
-          "reps": null,
-          "durationSeconds": null,
-          "restSeconds": 240,
-          "workLabel": "1 × max clean reps"
-        },
-        {
-          "name": "Pike Push-Up Test",
-          "sets": 1,
-          "reps": null,
-          "durationSeconds": null,
-          "restSeconds": 180,
-          "workLabel": "1 × max clean reps"
-        },
-        {
-          "name": "Bulgarian Split Squat Test",
-          "sets": 1,
-          "reps": null,
-          "durationSeconds": null,
-          "restSeconds": 90,
-          "workLabel": "1 × max clean reps each leg (cap 20)"
-        },
-        {
-          "name": "Hollow Body Hold Test",
-          "sets": 1,
-          "reps": null,
-          "durationSeconds": null,
-          "restSeconds": 0,
-          "workLabel": "1 × max hold"
-        }
+        {"name": "Mobility Warm-Up", "sets": 1, "reps": null, "durationSeconds": 360, "restSeconds": 0, "workLabel": "1 × 6 min"},
+        {"name": "Push-Up Test", "sets": 1, "reps": null, "durationSeconds": null, "restSeconds": 240, "workLabel": "1 × max clean reps"},
+        {"name": "Inverted Row Test", "sets": 1, "reps": null, "durationSeconds": null, "restSeconds": 300, "workLabel": "1 × max clean reps"},
+        {"name": "Superman Hold Test", "sets": 1, "reps": null, "durationSeconds": null, "restSeconds": 180, "workLabel": "1 × max reps (2 sec hold each)"},
+        {"name": "Pike Push-Up Test", "sets": 1, "reps": null, "durationSeconds": null, "restSeconds": 180, "workLabel": "1 × max clean reps"},
+        {"name": "Bulgarian Split Squat Test", "sets": 1, "reps": null, "durationSeconds": null, "restSeconds": 90, "workLabel": "1 × max clean reps each leg (cap 20)"},
+        {"name": "Hollow Body Hold Test", "sets": 1, "reps": null, "durationSeconds": null, "restSeconds": 0, "workLabel": "1 × max hold"}
       ],
       "notes": [
         "This is a calibration day. Do each test at maximum clean effort and record your scores.",
-        "For the row tests, use the table inverted row setup. Standard: feet on floor. Elevated: feet on a chair.",
+        "Inverted Row: lie under a sturdy table, grip the edge, pull chest to the table.",
+        "Superman Hold: lie face-down, count only reps where you hold the top position for a full 2 seconds.",
         "Rest fully between tests. The numbers you hit today set the loading for the rest of the plan.",
-        "If you have already completed this benchmark in a previous cycle, do the row tests only and record those numbers."
+        "If you have already completed this benchmark in a previous cycle, do the row and superman tests only."
       ]
     },
     {
@@ -263,26 +103,10 @@
       "focus": "Rest / Recovery",
       "isRestDay": true,
       "activities": [
-        {
-          "title": "Light walk",
-          "duration": "15-30 min",
-          "description": "Move a little, do not turn it into training."
-        },
-        {
-          "title": "Mobility",
-          "duration": "8-10 min",
-          "description": "Focus on whatever feels tight from the week."
-        },
-        {
-          "title": "Stretching",
-          "duration": "5-10 min",
-          "description": "Stay relaxed and controlled."
-        },
-        {
-          "title": "Hydration",
-          "duration": "All day",
-          "description": "Recover before the next block starts."
-        }
+        {"title": "Light walk", "duration": "15-30 min", "description": "Move a little, do not turn it into training."},
+        {"title": "Mobility", "duration": "8-10 min", "description": "Focus on whatever feels tight from the week."},
+        {"title": "Stretching", "duration": "5-10 min", "description": "Stay relaxed and controlled."},
+        {"title": "Hydration", "duration": "All day", "description": "Recover before the next block starts."}
       ],
       "exercises": []
     },
@@ -293,34 +117,10 @@
       "isRestDay": false,
       "activities": [],
       "exercises": [
-        {
-          "name": "Push-Up",
-          "sets": 4,
-          "reps": 15,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Pike Push-Up",
-          "sets": 4,
-          "reps": 10,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Bulgarian Split Squat",
-          "sets": 3,
-          "reps": 10,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Hollow Body Hold",
-          "sets": 3,
-          "reps": null,
-          "durationSeconds": 45,
-          "restSeconds": 30
-        }
+        {"name": "Push-Up", "sets": 4, "reps": 15, "durationSeconds": null, "restSeconds": 60},
+        {"name": "Pike Push-Up", "sets": 4, "reps": 10, "durationSeconds": null, "restSeconds": 60},
+        {"name": "Bulgarian Split Squat", "sets": 3, "reps": 10, "durationSeconds": null, "restSeconds": 60},
+        {"name": "Hollow Body Hold", "sets": 3, "reps": null, "durationSeconds": 45, "restSeconds": 30}
       ],
       "notes": [
         "Start wearing the armor vest for the Bulgarian split squat if it feels stable. This is where leg loading begins."
@@ -333,34 +133,10 @@
       "isRestDay": false,
       "activities": [],
       "exercises": [
-        {
-          "name": "Steady Run",
-          "sets": 1,
-          "reps": null,
-          "durationSeconds": 1320,
-          "restSeconds": 0
-        },
-        {
-          "name": "Reverse Lunge",
-          "sets": 2,
-          "reps": 12,
-          "durationSeconds": null,
-          "restSeconds": 45
-        },
-        {
-          "name": "Standing Calf Raise",
-          "sets": 2,
-          "reps": 22,
-          "durationSeconds": null,
-          "restSeconds": 30
-        },
-        {
-          "name": "Dead Bug",
-          "sets": 2,
-          "reps": 12,
-          "durationSeconds": null,
-          "restSeconds": 30
-        }
+        {"name": "Steady Run", "sets": 1, "reps": null, "durationSeconds": 1320, "restSeconds": 0},
+        {"name": "Reverse Lunge", "sets": 2, "reps": 12, "durationSeconds": null, "restSeconds": 45},
+        {"name": "Standing Calf Raise", "sets": 2, "reps": 22, "durationSeconds": null, "restSeconds": 30},
+        {"name": "Dead Bug", "sets": 2, "reps": 12, "durationSeconds": null, "restSeconds": 30}
       ],
       "notes": [
         "Run without the vest. Optional: use the armor vest only for the lower-body accessory work after the run."
@@ -373,34 +149,10 @@
       "isRestDay": false,
       "activities": [],
       "exercises": [
-        {
-          "name": "Inverted Row",
-          "sets": 4,
-          "reps": 12,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Inverted Row (feet elevated)",
-          "sets": 4,
-          "reps": 10,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Hamstring Walkout",
-          "sets": 3,
-          "reps": 8,
-          "durationSeconds": null,
-          "restSeconds": 45
-        },
-        {
-          "name": "Reverse Crunch",
-          "sets": 3,
-          "reps": 14,
-          "durationSeconds": null,
-          "restSeconds": 45
-        }
+        {"name": "Inverted Row", "sets": 4, "reps": 12, "durationSeconds": null, "restSeconds": 60},
+        {"name": "Superman Hold", "sets": 3, "reps": 12, "durationSeconds": null, "restSeconds": 30},
+        {"name": "Hamstring Walkout", "sets": 3, "reps": 8, "durationSeconds": null, "restSeconds": 45},
+        {"name": "Reverse Crunch", "sets": 3, "reps": 14, "durationSeconds": null, "restSeconds": 45}
       ]
     },
     {
@@ -410,34 +162,10 @@
       "isRestDay": false,
       "activities": [],
       "exercises": [
-        {
-          "name": "Decline Push-Up",
-          "sets": 3,
-          "reps": 10,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Inverted Row (feet elevated)",
-          "sets": 4,
-          "reps": 9,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Split Squat",
-          "sets": 3,
-          "reps": 12,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Plank Shoulder Tap",
-          "sets": 3,
-          "reps": 20,
-          "durationSeconds": null,
-          "restSeconds": 30
-        }
+        {"name": "Decline Push-Up", "sets": 3, "reps": 10, "durationSeconds": null, "restSeconds": 60},
+        {"name": "Superman Hold", "sets": 3, "reps": 12, "durationSeconds": null, "restSeconds": 30},
+        {"name": "Split Squat", "sets": 3, "reps": 12, "durationSeconds": null, "restSeconds": 60},
+        {"name": "Plank Shoulder Tap", "sets": 3, "reps": 20, "durationSeconds": null, "restSeconds": 30}
       ],
       "notes": [
         "Wear the armor vest for the split squat if it felt stable on Day 8."
@@ -449,26 +177,10 @@
       "focus": "Rest / Recovery",
       "isRestDay": true,
       "activities": [
-        {
-          "title": "Light walk",
-          "duration": "15-30 min",
-          "description": "Keep recovery low-stress and sustainable."
-        },
-        {
-          "title": "Mobility",
-          "duration": "8-10 min",
-          "description": "Shoulders, hips, spine, ankles."
-        },
-        {
-          "title": "Stretching",
-          "duration": "5-10 min",
-          "description": "Easy, no forcing range."
-        },
-        {
-          "title": "Hydration",
-          "duration": "All day",
-          "description": "Support the harder week."
-        }
+        {"title": "Light walk", "duration": "15-30 min", "description": "Keep recovery low-stress and sustainable."},
+        {"title": "Mobility", "duration": "8-10 min", "description": "Shoulders, hips, spine, ankles."},
+        {"title": "Stretching", "duration": "5-10 min", "description": "Easy, no forcing range."},
+        {"title": "Hydration", "duration": "All day", "description": "Support the harder week."}
       ],
       "exercises": [],
       "notes": [
@@ -482,34 +194,10 @@
       "isRestDay": false,
       "activities": [],
       "exercises": [
-        {
-          "name": "Running Intervals",
-          "sets": 5,
-          "reps": null,
-          "durationSeconds": 120,
-          "restSeconds": 60
-        },
-        {
-          "name": "Inverted Row",
-          "sets": 3,
-          "reps": 12,
-          "durationSeconds": null,
-          "restSeconds": 45
-        },
-        {
-          "name": "Inverted Row (feet elevated)",
-          "sets": 2,
-          "reps": 10,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Side Plank",
-          "sets": 2,
-          "reps": null,
-          "durationSeconds": 30,
-          "restSeconds": 30
-        }
+        {"name": "Running Intervals", "sets": 5, "reps": null, "durationSeconds": 120, "restSeconds": 60},
+        {"name": "Inverted Row", "sets": 3, "reps": 12, "durationSeconds": null, "restSeconds": 45},
+        {"name": "Superman Hold", "sets": 2, "reps": 10, "durationSeconds": null, "restSeconds": 30},
+        {"name": "Side Plank", "sets": 2, "reps": null, "durationSeconds": 30, "restSeconds": 30}
       ]
     },
     {
@@ -518,26 +206,10 @@
       "focus": "Rest / Recovery",
       "isRestDay": true,
       "activities": [
-        {
-          "title": "Light walk",
-          "duration": "15-30 min",
-          "description": "Let fatigue come down before next week."
-        },
-        {
-          "title": "Mobility",
-          "duration": "8-10 min",
-          "description": "Pick the tightest area and be consistent."
-        },
-        {
-          "title": "Stretching",
-          "duration": "5-10 min",
-          "description": "Relax, breathe, recover."
-        },
-        {
-          "title": "Hydration",
-          "duration": "All day",
-          "description": "Recovery is training too."
-        }
+        {"title": "Light walk", "duration": "15-30 min", "description": "Let fatigue come down before next week."},
+        {"title": "Mobility", "duration": "8-10 min", "description": "Pick the tightest area and be consistent."},
+        {"title": "Stretching", "duration": "5-10 min", "description": "Relax, breathe, recover."},
+        {"title": "Hydration", "duration": "All day", "description": "Recovery is training too."}
       ],
       "exercises": [],
       "notes": [
@@ -551,34 +223,10 @@
       "isRestDay": false,
       "activities": [],
       "exercises": [
-        {
-          "name": "Decline Push-Up",
-          "sets": 4,
-          "reps": 12,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Pike Push-Up",
-          "sets": 4,
-          "reps": 12,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Bulgarian Split Squat",
-          "sets": 4,
-          "reps": 10,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Hollow Body Hold",
-          "sets": 4,
-          "reps": null,
-          "durationSeconds": 50,
-          "restSeconds": 30
-        }
+        {"name": "Decline Push-Up", "sets": 4, "reps": 12, "durationSeconds": null, "restSeconds": 60},
+        {"name": "Pike Push-Up", "sets": 4, "reps": 12, "durationSeconds": null, "restSeconds": 60},
+        {"name": "Bulgarian Split Squat", "sets": 4, "reps": 10, "durationSeconds": null, "restSeconds": 60},
+        {"name": "Hollow Body Hold", "sets": 4, "reps": null, "durationSeconds": 50, "restSeconds": 30}
       ],
       "notes": [
         "Wear the armor vest for the Bulgarian split squat. This is no longer optional."
@@ -591,34 +239,10 @@
       "isRestDay": false,
       "activities": [],
       "exercises": [
-        {
-          "name": "Easy Run",
-          "sets": 1,
-          "reps": null,
-          "durationSeconds": 1500,
-          "restSeconds": 0
-        },
-        {
-          "name": "Reverse Lunge",
-          "sets": 2,
-          "reps": 12,
-          "durationSeconds": null,
-          "restSeconds": 45
-        },
-        {
-          "name": "Single-Leg Calf Raise",
-          "sets": 2,
-          "reps": 15,
-          "durationSeconds": null,
-          "restSeconds": 30
-        },
-        {
-          "name": "Dead Bug",
-          "sets": 2,
-          "reps": 12,
-          "durationSeconds": null,
-          "restSeconds": 30
-        }
+        {"name": "Easy Run", "sets": 1, "reps": null, "durationSeconds": 1500, "restSeconds": 0},
+        {"name": "Reverse Lunge", "sets": 2, "reps": 12, "durationSeconds": null, "restSeconds": 45},
+        {"name": "Single-Leg Calf Raise", "sets": 2, "reps": 15, "durationSeconds": null, "restSeconds": 30},
+        {"name": "Dead Bug", "sets": 2, "reps": 12, "durationSeconds": null, "restSeconds": 30}
       ],
       "notes": [
         "Run without the vest. Optional: use the armor vest only for the lower-body accessory work after the run."
@@ -631,34 +255,10 @@
       "isRestDay": false,
       "activities": [],
       "exercises": [
-        {
-          "name": "Inverted Row",
-          "sets": 4,
-          "reps": 12,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Inverted Row (feet elevated)",
-          "sets": 4,
-          "reps": 10,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Hamstring Walkout",
-          "sets": 3,
-          "reps": 10,
-          "durationSeconds": null,
-          "restSeconds": 45
-        },
-        {
-          "name": "Reverse Crunch",
-          "sets": 4,
-          "reps": 14,
-          "durationSeconds": null,
-          "restSeconds": 45
-        }
+        {"name": "Inverted Row", "sets": 4, "reps": 12, "durationSeconds": null, "restSeconds": 60},
+        {"name": "Superman Hold", "sets": 4, "reps": 12, "durationSeconds": null, "restSeconds": 30},
+        {"name": "Hamstring Walkout", "sets": 3, "reps": 10, "durationSeconds": null, "restSeconds": 45},
+        {"name": "Reverse Crunch", "sets": 4, "reps": 14, "durationSeconds": null, "restSeconds": 45}
       ]
     },
     {
@@ -668,34 +268,10 @@
       "isRestDay": false,
       "activities": [],
       "exercises": [
-        {
-          "name": "Feet-Elevated Push-Up",
-          "sets": 4,
-          "reps": 12,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Inverted Row (feet elevated)",
-          "sets": 4,
-          "reps": 10,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Split Squat",
-          "sets": 3,
-          "reps": 12,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Mountain Climber",
-          "sets": 3,
-          "reps": null,
-          "durationSeconds": 30,
-          "restSeconds": 30
-        }
+        {"name": "Feet-Elevated Push-Up", "sets": 4, "reps": 12, "durationSeconds": null, "restSeconds": 60},
+        {"name": "Superman Hold", "sets": 3, "reps": 12, "durationSeconds": null, "restSeconds": 30},
+        {"name": "Split Squat", "sets": 3, "reps": 12, "durationSeconds": null, "restSeconds": 60},
+        {"name": "Mountain Climber", "sets": 3, "reps": null, "durationSeconds": 30, "restSeconds": 30}
       ],
       "notes": [
         "Wear the armor vest for the split squat."
@@ -707,26 +283,10 @@
       "focus": "Rest / Recovery",
       "isRestDay": true,
       "activities": [
-        {
-          "title": "Light walk",
-          "duration": "15-30 min",
-          "description": "Keep Saturday easy and restorative."
-        },
-        {
-          "title": "Mobility",
-          "duration": "8-10 min",
-          "description": "Unwind from the heaviest week."
-        },
-        {
-          "title": "Stretching",
-          "duration": "5-10 min",
-          "description": "Stay light and calm."
-        },
-        {
-          "title": "Hydration",
-          "duration": "All day",
-          "description": "Support recovery and sleep."
-        }
+        {"title": "Light walk", "duration": "15-30 min", "description": "Keep Saturday easy and restorative."},
+        {"title": "Mobility", "duration": "8-10 min", "description": "Unwind from the heaviest week."},
+        {"title": "Stretching", "duration": "5-10 min", "description": "Stay light and calm."},
+        {"title": "Hydration", "duration": "All day", "description": "Support recovery and sleep."}
       ],
       "exercises": [],
       "notes": [
@@ -740,34 +300,10 @@
       "isRestDay": false,
       "activities": [],
       "exercises": [
-        {
-          "name": "Tempo Run",
-          "sets": 1,
-          "reps": null,
-          "durationSeconds": 1080,
-          "restSeconds": 0
-        },
-        {
-          "name": "Inverted Row",
-          "sets": 3,
-          "reps": 12,
-          "durationSeconds": null,
-          "restSeconds": 45
-        },
-        {
-          "name": "Inverted Row (feet elevated)",
-          "sets": 2,
-          "reps": 10,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Side Plank",
-          "sets": 2,
-          "reps": null,
-          "durationSeconds": 35,
-          "restSeconds": 30
-        }
+        {"name": "Tempo Run", "sets": 1, "reps": null, "durationSeconds": 1080, "restSeconds": 0},
+        {"name": "Inverted Row", "sets": 3, "reps": 12, "durationSeconds": null, "restSeconds": 45},
+        {"name": "Superman Hold", "sets": 2, "reps": 12, "durationSeconds": null, "restSeconds": 30},
+        {"name": "Side Plank", "sets": 2, "reps": null, "durationSeconds": 35, "restSeconds": 30}
       ]
     },
     {
@@ -776,26 +312,10 @@
       "focus": "Rest / Recovery",
       "isRestDay": true,
       "activities": [
-        {
-          "title": "Light walk",
-          "duration": "15-30 min",
-          "description": "Keep blood flowing, nothing more."
-        },
-        {
-          "title": "Mobility",
-          "duration": "8-10 min",
-          "description": "Shoulders, hips, ankles, spine."
-        },
-        {
-          "title": "Stretching",
-          "duration": "5-10 min",
-          "description": "Easy recovery only."
-        },
-        {
-          "title": "Hydration",
-          "duration": "All day",
-          "description": "Prepare for the final week."
-        }
+        {"title": "Light walk", "duration": "15-30 min", "description": "Keep blood flowing, nothing more."},
+        {"title": "Mobility", "duration": "8-10 min", "description": "Shoulders, hips, ankles, spine."},
+        {"title": "Stretching", "duration": "5-10 min", "description": "Easy recovery only."},
+        {"title": "Hydration", "duration": "All day", "description": "Prepare for the final week."}
       ],
       "exercises": [],
       "notes": [
@@ -809,34 +329,10 @@
       "isRestDay": false,
       "activities": [],
       "exercises": [
-        {
-          "name": "Decline Push-Up",
-          "sets": 3,
-          "reps": 12,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Pike Push-Up",
-          "sets": 3,
-          "reps": 12,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Bulgarian Split Squat",
-          "sets": 3,
-          "reps": 10,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Hollow Body Hold",
-          "sets": 3,
-          "reps": null,
-          "durationSeconds": 45,
-          "restSeconds": 30
-        }
+        {"name": "Decline Push-Up", "sets": 3, "reps": 12, "durationSeconds": null, "restSeconds": 60},
+        {"name": "Pike Push-Up", "sets": 3, "reps": 12, "durationSeconds": null, "restSeconds": 60},
+        {"name": "Bulgarian Split Squat", "sets": 3, "reps": 10, "durationSeconds": null, "restSeconds": 60},
+        {"name": "Hollow Body Hold", "sets": 3, "reps": null, "durationSeconds": 45, "restSeconds": 30}
       ],
       "notes": [
         "Consolidation week: same intensity as Week 3, one fewer set. Keep the vest on for legs."
@@ -849,34 +345,10 @@
       "isRestDay": false,
       "activities": [],
       "exercises": [
-        {
-          "name": "Steady Run",
-          "sets": 1,
-          "reps": null,
-          "durationSeconds": 1200,
-          "restSeconds": 0
-        },
-        {
-          "name": "Reverse Lunge",
-          "sets": 2,
-          "reps": 10,
-          "durationSeconds": null,
-          "restSeconds": 45
-        },
-        {
-          "name": "Standing Calf Raise",
-          "sets": 2,
-          "reps": 20,
-          "durationSeconds": null,
-          "restSeconds": 30
-        },
-        {
-          "name": "Dead Bug",
-          "sets": 2,
-          "reps": 10,
-          "durationSeconds": null,
-          "restSeconds": 30
-        }
+        {"name": "Steady Run", "sets": 1, "reps": null, "durationSeconds": 1200, "restSeconds": 0},
+        {"name": "Reverse Lunge", "sets": 2, "reps": 10, "durationSeconds": null, "restSeconds": 45},
+        {"name": "Standing Calf Raise", "sets": 2, "reps": 20, "durationSeconds": null, "restSeconds": 30},
+        {"name": "Dead Bug", "sets": 2, "reps": 10, "durationSeconds": null, "restSeconds": 30}
       ],
       "notes": [
         "Run without the vest. Optional: use the armor vest only for the lower-body accessory work after the run."
@@ -889,34 +361,10 @@
       "isRestDay": false,
       "activities": [],
       "exercises": [
-        {
-          "name": "Inverted Row",
-          "sets": 3,
-          "reps": 12,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Inverted Row (feet elevated)",
-          "sets": 3,
-          "reps": 10,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Hamstring Walkout",
-          "sets": 2,
-          "reps": 8,
-          "durationSeconds": null,
-          "restSeconds": 45
-        },
-        {
-          "name": "Reverse Crunch",
-          "sets": 3,
-          "reps": 12,
-          "durationSeconds": null,
-          "restSeconds": 45
-        }
+        {"name": "Inverted Row", "sets": 3, "reps": 12, "durationSeconds": null, "restSeconds": 60},
+        {"name": "Superman Hold", "sets": 3, "reps": 10, "durationSeconds": null, "restSeconds": 30},
+        {"name": "Hamstring Walkout", "sets": 2, "reps": 8, "durationSeconds": null, "restSeconds": 45},
+        {"name": "Reverse Crunch", "sets": 3, "reps": 12, "durationSeconds": null, "restSeconds": 45}
       ]
     },
     {
@@ -926,34 +374,10 @@
       "isRestDay": false,
       "activities": [],
       "exercises": [
-        {
-          "name": "Decline Push-Up",
-          "sets": 3,
-          "reps": 12,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Inverted Row (feet elevated)",
-          "sets": 3,
-          "reps": 10,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Split Squat",
-          "sets": 3,
-          "reps": 10,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Plank Shoulder Tap",
-          "sets": 3,
-          "reps": 16,
-          "durationSeconds": null,
-          "restSeconds": 30
-        }
+        {"name": "Decline Push-Up", "sets": 3, "reps": 12, "durationSeconds": null, "restSeconds": 60},
+        {"name": "Superman Hold", "sets": 3, "reps": 10, "durationSeconds": null, "restSeconds": 30},
+        {"name": "Split Squat", "sets": 3, "reps": 10, "durationSeconds": null, "restSeconds": 60},
+        {"name": "Plank Shoulder Tap", "sets": 3, "reps": 16, "durationSeconds": null, "restSeconds": 30}
       ],
       "notes": [
         "Wear the armor vest for the split squat."
@@ -965,26 +389,10 @@
       "focus": "Rest / Recovery",
       "isRestDay": true,
       "activities": [
-        {
-          "title": "Light walk",
-          "duration": "15-30 min",
-          "description": "Use the day for genuine recovery."
-        },
-        {
-          "title": "Mobility",
-          "duration": "8-10 min",
-          "description": "Stay loose, not tired."
-        },
-        {
-          "title": "Stretching",
-          "duration": "5-10 min",
-          "description": "Gentle, easy, sustainable."
-        },
-        {
-          "title": "Hydration",
-          "duration": "All day",
-          "description": "Support the final training days."
-        }
+        {"title": "Light walk", "duration": "15-30 min", "description": "Use the day for genuine recovery."},
+        {"title": "Mobility", "duration": "8-10 min", "description": "Stay loose, not tired."},
+        {"title": "Stretching", "duration": "5-10 min", "description": "Gentle, easy, sustainable."},
+        {"title": "Hydration", "duration": "All day", "description": "Support the final training days."}
       ],
       "exercises": [],
       "notes": [
@@ -998,34 +406,10 @@
       "isRestDay": false,
       "activities": [],
       "exercises": [
-        {
-          "name": "Easy Run",
-          "sets": 1,
-          "reps": null,
-          "durationSeconds": 1500,
-          "restSeconds": 0
-        },
-        {
-          "name": "Inverted Row",
-          "sets": 2,
-          "reps": 12,
-          "durationSeconds": null,
-          "restSeconds": 45
-        },
-        {
-          "name": "Inverted Row (feet elevated)",
-          "sets": 2,
-          "reps": 10,
-          "durationSeconds": null,
-          "restSeconds": 60
-        },
-        {
-          "name": "Side Plank",
-          "sets": 2,
-          "reps": null,
-          "durationSeconds": 30,
-          "restSeconds": 30
-        }
+        {"name": "Easy Run", "sets": 1, "reps": null, "durationSeconds": 1500, "restSeconds": 0},
+        {"name": "Inverted Row", "sets": 2, "reps": 12, "durationSeconds": null, "restSeconds": 45},
+        {"name": "Superman Hold", "sets": 2, "reps": 10, "durationSeconds": null, "restSeconds": 30},
+        {"name": "Side Plank", "sets": 2, "reps": null, "durationSeconds": 30, "restSeconds": 30}
       ]
     },
     {
@@ -1034,26 +418,10 @@
       "focus": "Rest / Recovery",
       "isRestDay": true,
       "activities": [
-        {
-          "title": "Light walk",
-          "duration": "15-30 min",
-          "description": "Finish the month by actually recovering."
-        },
-        {
-          "title": "Mobility",
-          "duration": "8-10 min",
-          "description": "Take stock of what feels better than week 1."
-        },
-        {
-          "title": "Stretching",
-          "duration": "5-10 min",
-          "description": "Easy recovery, no grind."
-        },
-        {
-          "title": "Hydration",
-          "duration": "All day",
-          "description": "Reset before the next cycle."
-        }
+        {"title": "Light walk", "duration": "15-30 min", "description": "Finish the month by actually recovering."},
+        {"title": "Mobility", "duration": "8-10 min", "description": "Take stock of what feels better than week 1."},
+        {"title": "Stretching", "duration": "5-10 min", "description": "Easy recovery, no grind."},
+        {"title": "Hydration", "duration": "All day", "description": "Reset before the next cycle."}
       ],
       "exercises": [],
       "notes": [
