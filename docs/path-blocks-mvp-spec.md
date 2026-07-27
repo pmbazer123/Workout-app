@@ -95,6 +95,8 @@ Optional but useful:
 
 The home screen is the product. No dashboard before the recommendation.
 
+The recommended layout is one large primary workout card plus small adjacent variant cards the user can swipe or tap into. The primary card remains the decision. The side cards are escape hatches for real life, not a workout library.
+
 Required content:
 
 - workout name
@@ -111,6 +113,28 @@ Required content:
 - secondary CTAs:
   - `I only have 10 minutes`
   - `Not today`
+
+### Home Variant Cards
+
+The first screen may show:
+
+- one large main card:
+  - `Recommended today`
+  - the next right workout
+  - default normal duration
+- small side cards:
+  - `Short version`
+  - `Bonus set / longer version`
+  - `Easy cardio / recovery option`, only when appropriate
+
+Rules:
+
+- There is always one primary recommendation.
+- The short version is always the same workout pattern, reduced in volume.
+- The longer version only adds optional third sets or a small lower-body/hinge bonus when recent effort was `easy` or `ok` and pain was `no`.
+- The alternate workout cannot become an open-ended choice list.
+- A different workout type should appear only when the engine already considers it acceptable, for example easy cardio after strength was completed recently.
+- Variant cards must not advance the program until the user completes/logs them.
 
 ### Example Normal State
 
@@ -742,6 +766,16 @@ If pain is `yes`, app should:
 Required.
 
 This is the main app.
+
+Recommended layout:
+
+- one large primary recommendation card
+- small swipeable/tappable variant cards for:
+  - short version
+  - bonus longer version
+  - occasional easy cardio/recovery option
+
+Guardrail: the user should feel guided, not asked to browse options.
 
 ### 2. Workout Screen
 
