@@ -748,6 +748,24 @@ Progress display should support:
 - longer plank
 - better 10-minute walk/run result
 
+### Motivation And Progress Honesty
+
+Two failure modes to avoid, both equally:
+
+1. Never show a workout as completed when it was not done. The app must never inflate the record to look good.
+2. Never frame missed days as an owed backlog (`you owe 4 sessions`, `catch up`). No debt, no guilt.
+
+Between those two, positive motivation is welcome and wanted:
+
+- **Absence nudge (motivator, not guilt):** it is fine to surface `You haven't trained in 5 days` or `10 days since your last session` as a gentle re-engagement prompt. This is a nudge to come back, not a tally of debt. Frame it forward (`ready when you are`), never as failure.
+- **Streak / consistency stat (motivator):** show what he is building toward, e.g.:
+  - current streak: `You've trained 5x/week for the last 5 weeks`
+  - cumulative count: `16 workouts done`
+  - rolling frequency: `5 sessions in the last 7 days`
+- These stats reflect only real completed sessions, and they degrade honestly (a real streak breaks when he stops), but they never turn into a backlog or a scold.
+
+The line: reflect reality honestly, motivate forward, never manufacture completion, never manufacture debt.
+
 ### Pain Handling
 
 V1 is not medical software.
@@ -815,8 +833,12 @@ Show:
 - benchmark comparison if available
 - current block goal:
   - `Strength base + basic running fitness`
+- motivation stats (real data only, per Section 8 honesty rules):
+  - current streak / rolling frequency (e.g. `5x/week for 5 weeks`)
+  - cumulative workouts done
+  - absence nudge when relevant (e.g. `10 days since your last session`), framed forward
 
-No complex charts.
+No complex charts. No owed-workout backlog. No fake completions.
 
 ### 5. Settings / Setup
 
